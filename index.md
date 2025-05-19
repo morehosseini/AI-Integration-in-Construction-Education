@@ -4,8 +4,43 @@ layout: default
 
 # AI Integration in Construction Education
 
-Welcome to the companion website for the book "AI Integration in Construction Education: Methods and Resources."
+![Book Cover](images/book-cover.png)
 
-This website provides educators, students, and practitioners with downloadable resources, code examples, and teaching materials that extend the book's content.
+## About the Book
 
-[View the README](README.md) for more information about the project structure.
+"AI Integration in Construction Education: Methods and Resources" provides a comprehensive framework for educators to incorporate artificial intelligence concepts into construction education curricula.
+
+### Key Features
+
+- **Practical Teaching Resources**: Ready-to-use lesson plans, exercises, and assessments
+- **Code Examples**: Hands-on AI applications specific to construction challenges
+- **Implementation Guidelines**: Step-by-step guidance for educators at various levels
+- **Industry Connections**: Materials that bridge academic learning with industry practice
+
+[Explore Chapters](#chapters) | [Download Resources](#resources) | [About the Author](#author)
+
+---
+
+## <a name="chapters"></a>Book Chapters
+
+Explore the supplementary materials for each chapter:
+
+{% for i in (1..12) %}
+- [Chapter {{i}}](Chapters/Chapter{{i}}/) - *Chapter title goes here*
+{% endfor %}
+
+---
+
+## <a name="resources"></a>Featured Resources
+
+- [AI Tools for Construction Education](resources/ai-tools.md)
+- [Dataset Collections](resources/datasets.md)
+- [Implementation Case Studies](resources/case-studies.md)
+
+---
+
+## <a name="author"></a>About the Author
+
+Dr. M. Reza Hosseini is a Senior Lecturer in Construction Technology at the University of Melbourne, specializing in AI applications for construction engineering and education.
+
+[View GitHub](https://github.com/morehosseini) | [University Profile](https://www.unimelb.edu.au/)
