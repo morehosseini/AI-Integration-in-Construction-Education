@@ -1,0 +1,61 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* Custom styles for AI Integration in Construction Education */
+
+/* Header styling */
+.main-content h1 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+.main-content h2 {
+  color: #3498db;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.2rem;
+}
+
+.main-content h3 {
+  color: #2980b9;
+}
+
+/* Link styling */
+a {
+  color: #2980b9;
+}
+
+a:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+/* Body text improvements */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Container improvements */
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+  .main-content {
+    padding: 1rem;
+  }
+  
+  .main-content h1 {
+    font-size: 1.5rem;
+  }
+  
+  .main-content h2 {
+    font-size: 1.3rem;
+  }
+}
