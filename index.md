@@ -4,7 +4,7 @@ layout: default
 
 # AI Integration in Construction Education
 
-![Book Cover](images/ai-construction-banner.jpg)
+![Book Cover](images/ai-construction-banner2.jpeg)
 
 ## About the Book
 
