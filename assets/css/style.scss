@@ -14,17 +14,11 @@
   --border-color: #e1e4e8;      /* Light gray for borders */
 }
 
-/* Overall page improvements */
-body {
-  color: var(--text-color);
-  line-height: 1.6;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
-
+/* Improve main content area */
 .main-content {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 2rem;
 }
 
 /* Header styling */
@@ -33,21 +27,16 @@ body {
   border-bottom: 2px solid var(--accent-color);
   padding-bottom: 0.5rem;
   margin-top: 2rem;
-  font-weight: 600;
 }
 
 .main-content h2 {
   color: var(--primary-color);
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 0.3rem;
-  margin-top: 1.5rem;
-  font-weight: 600;
 }
 
 .main-content h3 {
   color: var(--secondary-color);
-  margin-top: 1.2rem;
-  font-weight: 600;
 }
 
 /* Link styling */
@@ -62,72 +51,73 @@ a:hover {
   text-decoration: underline;
 }
 
-/* List improvements */
-ul {
-  padding-left: 1.2rem;
-}
-
-li {
-  margin-bottom: 0.5rem;
-}
-
-/* Section styling */
-.section {
-  margin: 2rem 0;
-  padding: 1rem;
-  background-color: var(--light-bg);
-  border-radius: 5px;
-  border-left: 4px solid var(--accent-color);
-}
-
-/* Button styling for your "Explore Chapters", etc. links */
-.button {
+/* Style the navigation buttons */
+.main-content a[href*="Explore"],
+.main-content a[href*="Download"],
+.main-content a[href*="About the Author"],
+.main-content a[href="View GitHub"],
+.main-content a[href="University Profile"] {
   display: inline-block;
   background-color: var(--secondary-color);
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 8px 16px;
   border-radius: 4px;
+  margin: 5px;
   text-decoration: none;
-  margin: 0.5rem 0.5rem 0.5rem 0;
   transition: background-color 0.2s ease;
 }
 
-.button:hover {
+.main-content a[href*="Explore"]:hover,
+.main-content a[href*="Download"]:hover,
+.main-content a[href*="About the Author"]:hover,
+.main-content a[href="View GitHub"]:hover,
+.main-content a[href="University Profile"]:hover {
   background-color: var(--accent-color);
   text-decoration: none;
   color: white;
 }
 
+/* Make sections stand out */
+.main-content > h2 {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px dotted var(--border-color);
+}
+
+/* List improvements */
+.main-content ul {
+  padding-left: 1.5rem;
+}
+
+.main-content li {
+  margin-bottom: 0.5rem;
+}
+
+/* Chapter list styling */
+.main-content li a[href*="Chapter"] {
+  font-weight: 500;
+}
+
 /* Footer improvements */
 .site-footer {
-  border-top: 1px solid var(--border-color);
+  margin-top: 4rem;
   padding-top: 2rem;
-  margin-top: 2rem;
-  font-size: 0.9rem;
+  border-top: 1px solid var(--border-color);
 }
 
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
   .main-content {
-    padding: 1rem 0.5rem;
+    padding: 1rem;
   }
   
-  .main-content h1 {
-    font-size: 1.6rem;
-  }
-  
-  .main-content h2 {
-    font-size: 1.4rem;
-  }
-  
-  .main-content h3 {
-    font-size: 1.2rem;
-  }
-  
-  .button {
+  .main-content a[href*="Explore"],
+  .main-content a[href*="Download"],
+  .main-content a[href*="About the Author"],
+  .main-content a[href="View GitHub"],
+  .main-content a[href="University Profile"] {
     display: block;
-    width: 100%;
-    margin: 0.5rem 0;
     text-align: center;
+    margin: 10px 0;
   }
 }
