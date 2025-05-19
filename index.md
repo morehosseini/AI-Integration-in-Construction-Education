@@ -4,7 +4,7 @@ layout: default
 
 # AI Integration in Construction Education
 
-![Book Cover](images/book-cover.png)
+![Book Cover](images/ai-construction-banner.jpg)
 
 ## About the Book
 
@@ -26,7 +26,9 @@ layout: default
 Explore the supplementary materials for each chapter:
 
 {% for i in (1..12) %}
-- [Chapter {{i}}](Chapters/Chapter{{i}}/) - *Chapter title goes here*
+- [Chapter 1](Chapters/Chapter1/) - Introduction to AI in Construction
+- [Chapter 2](Chapters/Chapter2/) - Machine Learning Fundamentals
+- [Chapter 3](Chapters/Chapter3/) - Data Collection and Processing
 {% endfor %}
 
 ---
