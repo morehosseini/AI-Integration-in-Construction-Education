@@ -25,11 +25,18 @@ layout: default
 
 Explore the supplementary materials for each chapter:
 
-{% for i in (1..12) %}
 - [Chapter 1](Chapters/Chapter1/) - Introduction to AI in Construction
 - [Chapter 2](Chapters/Chapter2/) - Machine Learning Fundamentals
 - [Chapter 3](Chapters/Chapter3/) - Data Collection and Processing
-{% endfor %}
+- [Chapter 4](Chapters/Chapter4/) - AI Applications in Construction Management
+- [Chapter 5](Chapters/Chapter5/) - Building Information Modeling and AI
+- [Chapter 6](Chapters/Chapter6/) - Computer Vision in Construction
+- [Chapter 7](Chapters/Chapter7/) - Natural Language Processing for Construction
+- [Chapter 8](Chapters/Chapter8/) - Predictive Analytics in Construction
+- [Chapter 9](Chapters/Chapter9/) - AI Ethics and Implementation Challenges
+- [Chapter 10](Chapters/Chapter10/) - Case Studies of AI in Construction Education
+- [Chapter 11](Chapters/Chapter11/) - Assessment Frameworks for AI Learning
+- [Chapter 12](Chapters/Chapter12/) - Future Trends and Opportunities
 
 ---
 
