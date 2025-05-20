@@ -1,123 +1,204 @@
----
----
+/* Updated style.scss3 */
 @import "{{ site.theme }}";
 
-/* Enhanced styling for AI Integration in Construction Education */
-
-/* Color scheme */
 :root {
-  --primary-color: #2c3e50;     /* Dark blue/slate for headings */
-  --accent-color: #3498db;      /* Lighter blue for accents */
-  --secondary-color: #2980b9;   /* Medium blue for secondary elements */
-  --text-color: #333333;        /* Dark gray for main text */
-  --light-bg: #f8f9fa;          /* Light background for sections */
-  --border-color: #e1e4e8;      /* Light gray for borders */
+  --primary-color: #2563eb;
+  --secondary-color: #1e40af;
+  --accent-color: #f97316;
+  --background-color: #f8fafc;
+  --text-color: #1e293b;
+  --light-gray: #e2e8f0;
+  --card-background: #ffffff;
 }
 
-/* Improve main content area */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.page-header {
+  background-color: #0f172a;
+  background-image: linear-gradient(120deg, #1e3a8a, #0f172a);
+  padding: 2rem 0;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
 .main-content {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
 }
 
-/* Header styling */
-.main-content h1 {
+.main-content h1, 
+.main-content h2, 
+.main-content h3, 
+.main-content h4, 
+.main-content h5, 
+.main-content h6 {
   color: var(--primary-color);
-  border-bottom: 2px solid var(--accent-color);
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  position: relative;
   padding-bottom: 0.5rem;
+}
+
+.main-content h1::after,
+.main-content h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 80px;
+  background-color: var(--accent-color);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.card {
+  background-color: var(--card-background);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.feature-list {
+  padding-left: 0;
+}
+
+.feature-list li {
+  list-style-type: none;
+  padding: 0.5rem 0;
+  padding-left: 1.8rem;
+  position: relative;
+}
+
+.feature-list li::before {
+  content: "✓";
+  color: var(--accent-color);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--accent-color);
+}
+
+.btn-secondary:hover {
+  background-color: #ea580c;
+}
+
+.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
   margin-top: 2rem;
 }
 
-.main-content h2 {
-  color: var(--primary-color);
-  border-bottom: 1px solid var(--border-color);
-  padding-bottom: 0.3rem;
+.chapter-item {
+  background-color: var(--card-background);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
 }
 
-.main-content h3 {
-  color: var(--secondary-color);
+.chapter-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Link styling */
-a {
-  color: var(--secondary-color);
-  text-decoration: none;
-  transition: color 0.2s ease;
+.chapter-item h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
 }
 
-a:hover {
-  color: var(--accent-color);
-  text-decoration: underline;
-}
-
-/* Style the navigation buttons */
-.main-content a[href*="Explore"],
-.main-content a[href*="Download"],
-.main-content a[href*="About the Author"],
-.main-content a[href="View GitHub"],
-.main-content a[href="University Profile"] {
-  display: inline-block;
-  background-color: var(--secondary-color);
-  color: white;
-  padding: 8px 16px;
-  border-radius: 4px;
-  margin: 5px;
-  text-decoration: none;
-  transition: background-color 0.2s ease;
-}
-
-.main-content a[href*="Explore"]:hover,
-.main-content a[href*="Download"]:hover,
-.main-content a[href*="About the Author"]:hover,
-.main-content a[href="View GitHub"]:hover,
-.main-content a[href="University Profile"]:hover {
-  background-color: var(--accent-color);
-  text-decoration: none;
-  color: white;
-}
-
-/* Make sections stand out */
-.main-content > h2 {
-  margin-top: 2.5rem;
-  padding-top: 1rem;
-  border-top: 1px dotted var(--border-color);
-}
-
-/* List improvements */
-.main-content ul {
-  padding-left: 1.5rem;
-}
-
-.main-content li {
-  margin-bottom: 0.5rem;
-}
-
-/* Chapter list styling */
-.main-content li a[href*="Chapter"] {
-  font-weight: 500;
-}
-
-/* Footer improvements */
 .site-footer {
+  text-align: center;
+  padding: 2rem 0;
   margin-top: 4rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border-color);
+  background-color: #0f172a;
+  color: white;
 }
 
-/* Mobile responsiveness */
-@media screen and (max-width: 768px) {
-  .main-content {
-    padding: 1rem;
+.hero-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-image: url('../images/construction-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .chapter-grid {
+    grid-template-columns: 1fr;
   }
   
-  .main-content a[href*="Explore"],
-  .main-content a[href*="Download"],
-  .main-content a[href*="About the Author"],
-  .main-content a[href="View GitHub"],
-  .main-content a[href="University Profile"] {
-    display: block;
-    text-align: center;
-    margin: 10px 0;
+  .hero-title {
+    font-size: 2rem;
   }
 }
