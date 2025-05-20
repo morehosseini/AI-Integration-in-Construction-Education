@@ -24,100 +24,80 @@ body {
   padding: 0;
 }
 
-a {
-  color: var(--primary);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: var(--secondary);
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-/* Hero Banner */
+/* Header Styling */
 .page-header {
   background-color: #0f172a;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/construction-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 4rem 0;
+  background-image: linear-gradient(120deg, #1e40af, #0f172a);
+  padding: 2.5rem 0;
   text-align: center;
 }
 
 .project-name {
-  font-size: 3rem;
   font-weight: 700;
+  font-size: 2.5rem;
+  color: white;
   margin-bottom: 0.5rem;
 }
 
 .project-tagline {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   opacity: 1;
+  color: white;
   font-weight: 400;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
+/* Button Styles */
 .btn {
   display: inline-block;
-  padding: 0.8rem 1.8rem;
-  margin: 0 0.5rem 1rem;
-  font-size: 1.1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0.5rem 0.5rem;
+  font-size: 1rem;
   border-radius: 4px;
   font-weight: 500;
   transition: all 0.3s ease;
   text-decoration: none;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
-  text-decoration: none;
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.btn-primary {
+.main-content .btn {
   background-color: var(--primary);
   color: white;
 }
 
-.btn-primary:hover {
+.main-content .btn:hover {
   background-color: var(--primary-light);
+  text-decoration: none;
   color: white;
 }
 
-.btn-secondary {
-  background-color: var(--secondary);
-  color: white;
-}
-
-.btn-secondary:hover {
-  background-color: var(--secondary-light);
-  color: white;
-}
-
-/* Main Content Styling */
+/* Main Content */
 .main-content {
-  padding: 2rem 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem;
 }
 
-.main-content h1, 
-.main-content h2, 
-.main-content h3, 
+.main-content h1,
+.main-content h2,
+.main-content h3,
 .main-content h4 {
   color: var(--primary);
-  position: relative;
-  padding-bottom: 0.5rem;
   margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .main-content h2 {
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 0.75rem;
 }
 
 .main-content h2::after {
@@ -131,11 +111,11 @@ a:hover {
   background-color: var(--secondary);
 }
 
-/* Cards */
+/* Card Styling */
 .card {
   background-color: var(--card-bg);
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   padding: 1.5rem;
   margin-bottom: 2rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -143,155 +123,228 @@ a:hover {
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  color: var(--primary);
+  border-bottom: 2px solid var(--gray);
+  padding-bottom: 0.5rem;
+  margin-top: 0;
 }
 
 /* Feature List */
-ul li {
+.main-content ul {
+  padding-left: 1.5rem;
+}
+
+.main-content ul li {
   padding: 0.5rem 0;
   position: relative;
 }
 
-/* Chapter Grid */
-.chapter-grid {
+.main-content ul li::marker {
+  color: var(--secondary);
+}
+
+/* Book Chapters Grid */
+.main-content .chapter-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
 }
 
-.chapter-item {
+.main-content .chapter-card {
   background-color: var(--card-bg);
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  padding: 1.25rem;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.chapter-item:hover {
+.main-content .chapter-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-top: 3px solid var(--secondary);
 }
 
-.chapter-item h3 {
+.main-content .chapter-card h3 {
   color: var(--primary);
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 1.3rem;
 }
 
-.view-materials {
+.main-content .chapter-card p {
+  font-size: 0.95rem;
+  color: var(--dark);
+  flex-grow: 1;
+  margin: 0.75rem 0;
+}
+
+.main-content .chapter-card a {
   display: inline-block;
-  margin-top: 1rem;
   color: var(--primary);
   font-weight: 500;
   text-decoration: none;
-  position: relative;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
 }
 
-.view-materials::after {
-  content: "→";
-  margin-left: 5px;
+.main-content .chapter-card a::after {
+  content: " →";
   transition: transform 0.3s ease;
+  display: inline-block;
 }
 
-.view-materials:hover::after {
+.main-content .chapter-card a:hover {
+  color: var(--secondary);
+}
+
+.main-content .chapter-card a:hover::after {
   transform: translateX(5px);
 }
 
-/* Resources Grid */
-.resources-grid {
+/* Resources Section */
+.main-content .resources-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
 }
 
-.resource-card {
+.main-content .resource-card {
   background-color: var(--card-bg);
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.resource-card:hover {
+.main-content .resource-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-.resource-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+.main-content .resource-card h3 {
+  color: var(--primary);
+  margin-top: 0.5rem;
+  border: none;
 }
 
-.download-btn {
+.main-content .resource-card p {
+  flex-grow: 1;
+  margin: 1rem 0;
+}
+
+.resource-icon {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
+
+.main-content .download-btn {
   display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: var(--primary-light);
+  padding: 0.5rem 1.25rem;
+  background-color: var(--primary);
   color: white;
   border-radius: 4px;
   text-decoration: none;
   font-weight: 500;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: auto;
 }
 
-.download-btn:hover {
-  background-color: var(--primary);
+.main-content .download-btn:hover {
+  background-color: var(--primary-light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
   color: white;
 }
 
 /* Author Section */
-.author-card {
+.main-content .author-card {
   background-color: var(--card-bg);
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   padding: 2rem;
   margin-top: 2rem;
+  text-align: center;
 }
 
-.author-links {
+.main-content .author-links {
   margin-top: 1.5rem;
 }
 
-.profile-btn {
+.main-content .profile-btn {
   display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 1rem;
-  background-color: var(--primary-light);
+  padding: 0.6rem 1.2rem;
+  margin: 0 0.5rem;
+  background-color: var(--primary);
   color: white;
   border-radius: 4px;
   text-decoration: none;
   font-weight: 500;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-.profile-btn:hover {
-  background-color: var(--primary);
+.main-content .profile-btn:hover {
+  background-color: var(--primary-light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
   color: white;
 }
 
 /* Footer */
 .site-footer {
-  margin-top: 4rem;
-  text-align: center;
-  padding: 2rem 0;
   background-color: var(--dark);
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.site-footer a {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
   color: white;
 }
 
+/* Mobile Responsiveness */
 @media (max-width: 768px) {
   .project-name {
     font-size: 2rem;
   }
   
   .project-tagline {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   
-  .chapter-grid,
-  .resources-grid {
+  .main-content h2 {
+    font-size: 1.7rem;
+  }
+  
+  .main-content .resources-grid,
+  .main-content .chapter-grid {
     grid-template-columns: 1fr;
+  }
+  
+  .main-content {
+    padding: 1.5rem;
   }
 }
