@@ -1,0 +1,101 @@
+/* Final enhancements for AI in Construction Education site */
+
+/* Enhanced section headers */
+.main-content h2 {
+  color: #1e40af;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.main-content h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(to right, #1e40af, #f97316);
+}
+
+/* Card enhancements */
+.card, 
+.chapter-grid > div,
+.featured-resources > div {
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+
+.card:hover, 
+.chapter-grid > div:hover,
+.featured-resources > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Chapter headings */
+.chapter-grid h3 {
+  color: #1e40af;
+  margin-bottom: 8px;
+}
+
+/* Chapter links */
+.chapter-grid a {
+  color: #1e40af;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.chapter-grid a:hover {
+  color: #f97316;
+  transform: translateX(3px);
+}
+
+/* Button styling */
+.download, 
+.view-github, 
+.university-profile,
+[class*="view-materials"] {
+  display: inline-block;
+  background-color: #1e40af;
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.download:hover, 
+.view-github:hover, 
+.university-profile:hover,
+[class*="view-materials"]:hover {
+  background-color: #f97316;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+/* Subtle page background */
+body {
+  background-color: #f8fafc;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e2e8f0' fill-opacity='0.4' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='1'/%3E%3Ccircle cx='13' cy='13' r='1'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Resource icons */
+.resource-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1e40af;
+}
+
+/* Author section */
+.about-author > div {
+  padding: 25px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
