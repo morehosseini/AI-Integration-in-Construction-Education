@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="assets/css/final-polish.css">
 <link rel="stylesheet" href="assets/css/final-styles.css">
 <link rel="stylesheet" href="assets/css/style-enhancements.css">
 <link rel="stylesheet" href="assets/css/custom.css">
