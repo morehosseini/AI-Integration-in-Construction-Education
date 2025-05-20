@@ -1,0 +1,134 @@
+/* Final polish for AI in Construction Education website */
+
+/* Page background */
+body {
+  background-color: #f8fafc;
+}
+
+/* Enhanced section headings */
+.main-content h2 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #1e40af;
+}
+
+.main-content h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(to right, #1e40af, #f97316);
+}
+
+/* Card styling */
+.card, .main-content > div {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: white;
+}
+
+.card:hover, .main-content > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Chapter cards */
+.chapter-grid > div {
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border-top: 3px solid transparent;
+}
+
+.chapter-grid > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-top: 3px solid #f97316;
+}
+
+/* Chapter headings */
+.chapter-grid h3 {
+  color: #1e40af;
+  font-weight: 600;
+}
+
+/* Button styling */
+.download, .view-github, .university-profile, a[href*="Materials"] {
+  display: inline-block;
+  background-color: #1e40af;
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.download:hover, .view-github:hover, .university-profile:hover, a[href*="Materials"]:hover {
+  background-color: #f97316;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Resource icons */
+.resource-icon, [class^="ai-tools"] img, [class^="dataset"] img, [class^="implementation"] img {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1e40af;
+}
+
+/* Resource cards */
+.featured-resources > div {
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.featured-resources > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Author section */
+.about-author > div {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* Header enhancement */
+.page-header {
+  background-color: #0f172a;
+  background-image: linear-gradient(120deg, #1e40af, #0f172a);
+  padding: 2.5rem 0;
+}
+
+/* Footer styling */
+.site-footer {
+  background-color: #0f172a;
+  color: white;
+  margin-top: 3rem;
+}
+
+.site-footer a {
+  color: #f8fafc;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #f97316;
+}
