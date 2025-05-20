@@ -3,22 +3,13 @@ layout: default
 title: AI Integration in Construction Education
 ---
 
-<div class="hero-banner">
-  <h1>AI Integration in Construction Education</h1>
-  <p class="subtitle">Methods, Resources, and Implementation Strategies</p>
-  <div class="cta-buttons">
-    <a href="#explore-chapters" class="btn btn-primary">Explore Chapters</a>
-    <a href="#download-resources" class="btn btn-secondary">Download Resources</a>
-  </div>
-</div>
-
 ## About the Book
 
 <div class="card">
   <p>"AI Integration in Construction Education: Methods and Resources" provides a comprehensive framework for educators to incorporate artificial intelligence concepts into construction education curricula.</p>
   
   <h3>Key Features</h3>
-  <ul class="feature-list">
+  <ul>
     <li><strong>Practical Teaching Resources:</strong> Ready-to-use lesson plans, exercises, and assessments</li>
     <li><strong>Code Examples:</strong> Hands-on AI applications specific to construction challenges</li>
     <li><strong>Implementation Guidelines:</strong> Step-by-step guidance for educators at various levels</li>
@@ -31,77 +22,38 @@ title: AI Integration in Construction Education
 <p>Explore the supplementary materials for each chapter:</p>
 
 <div class="chapter-grid">
-  <div class="chapter-item">
-    <h3>Chapter 1</h3>
-    <p>Introduction to AI in Construction</p>
-    <a href="Chapters/Chapter1/" class="view-materials">View Materials</a>
-  </div>
-  
-  <div class="chapter-item">
-    <h3>Chapter 2</h3>
-    <p>Machine Learning Fundamentals</p>
-    <a href="Chapters/Chapter2/" class="view-materials">View Materials</a>
-  </div>
-  
-  <div class="chapter-item">
-    <h3>Chapter 3</h3>
-    <p>Data Collection and Processing</p>
-    <a href="Chapters/Chapter3/" class="view-materials">View Materials</a>
-  </div>
-  
-  <div class="chapter-item">
-    <h3>Chapter 4</h3>
-    <p>AI Applications in Construction Management</p>
-    <a href="Chapters/Chapter4/" class="view-materials">View Materials</a>
-  </div>
-  
-  <div class="chapter-item">
-    <h3>Chapter 5</h3>
-    <p>Building Information Modeling and AI</p>
-    <a href="Chapters/Chapter5/" class="view-materials">View Materials</a>
-  </div>
-  
-  <div class="chapter-item">
-    <h3>Chapter 6</h3>
-    <p>Computer Vision in Construction</p>
-    <a href="Chapters/Chapter6/" class="view-materials">View Materials</a>
-  </div>
-  
-  <div class="chapter-item">
-    <h3>Chapter 7</h3>
-    <p>Natural Language Processing for Construction</p>
-    <a href="Chapters/Chapter7/" class="view-materials">View Materials</a>
-  </div>
-  
-  <div class="chapter-item">
-    <h3>Chapter 8</h3>
-    <p>Predictive Analytics in Construction</p>
-    <a href="Chapters/Chapter8/" class="view-materials">View Materials</a>
-  </div>
-  
-  <div class="chapter-item">
-    <h3>Chapter 9</h3>
-    <p>AI Ethics and Implementation Challenges</p>
-    <a href="Chapters/Chapter9/" class="view-materials">View Materials</a>
-  </div>
-  
-  <div class="chapter-item">
-    <h3>Chapter 10</h3>
-    <p>Case Studies of AI in Construction Education</p>
-    <a href="Chapters/Chapter10/" class="view-materials">View Materials</a>
-  </div>
-  
-  <div class="chapter-item">
-    <h3>Chapter 11</h3>
-    <p>Assessment Frameworks for AI Learning</p>
-    <a href="Chapters/Chapter11/" class="view-materials">View Materials</a>
-  </div>
-  
-  <div class="chapter-item">
-    <h3>Chapter 12</h3>
-    <p>Future Trends and Opportunities</p>
-    <a href="Chapters/Chapter12/" class="view-materials">View Materials</a>
-  </div>
+  {% for i in (1..12) %}
+    <div class="chapter-card">
+      <h3>Chapter {{ i }}</h3>
+      {% case i %}
+        {% when 1 %}
+          <p>Introduction to AI in Construction</p>
+        {% when 2 %}
+          <p>Machine Learning Fundamentals</p>
+        {% when 3 %}
+          <p>Data Collection and Processing</p>
+        {% when 4 %}
+          <p>AI Applications in Construction Management</p>
+        {% when 5 %}
+          <p>Building Information Modeling and AI</p>
+        {% when 6 %}
+          <p>Computer Vision in Construction</p>
+        {% when 7 %}
+          <p>Natural Language Processing for Construction</p>
+        {% when 8 %}
+          <p>Predictive Analytics in Construction</p>
+        {% when 9 %}
+          <p>AI Ethics and Implementation Challenges</p>
+        {% when 10 %}
+          <p>Case Studies of AI in Construction Education</p>
+        {% when 11 %}
+          <p>Assessment Frameworks for AI Learning</p>
+        {% when 12 %}
+          <p>Future Trends and Opportunities</p>
+      {% endcase %}
+      <a href="Chapters/Chapter{{ i }}/">View Materials</a>
+    </div>
+  {% endfor %}
 </div>
 
 ## Featured Resources
