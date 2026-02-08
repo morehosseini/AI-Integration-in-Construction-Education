@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Integration in AEC Education | Routledge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a365d;
+            --secondary-color: #2c5282;
+            --accent-color: #3182ce;
+            --gold-accent: #d4a574;
+            --text-dark: #1a202c;
+            --text-light: #718096;
+            --bg-light: #f7fafc;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: var(--white);
+            padding: 120px 20px 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"><path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".1" fill="%23ffffff"></path></svg>') no-repeat bottom;
+            background-size: cover;
+            opacity: 0.1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero h2 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+
+        .publisher-badge {
+            display: inline-block;
+            background: var(--gold-accent);
+            color: var(--primary-color);
+            padding: 8px 24px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Editor & Contributors Section */
+        .editors-section {
+            background: var(--white);
+            padding: 80px 20px;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 60px;
+            color: var(--primary-color);
+        }
+
+        .editor-card {
+            background: var(--bg-light);
+            border-radius: 12px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .editor-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        .editor-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            gap: 20px;
+        }
+
+        .editor-avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent-color), var(--secondary-color));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            color: var(--white);
+            font-weight: 600;
+        }
+
+        .editor-info h3 {
+            font-size: 1.8rem;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        .editor-title {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .editor-affiliation {
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+
+        .editor-bio {
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-top: 20px;
+        }
+
+        .editor-contact {
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .contact-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: var(--white);
+            border-radius: 6px;
+            text-decoration: none;
+            color: var(--accent-color);
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .contact-link:hover {
+            background: var(--accent-color);
+            color: var(--white);
+        }
+
+        /* Book Overview Section */
+        .overview-section {
+            background: var(--bg-light);
+            padding: 80px 20px;
+        }
+
+        .overview-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .overview-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 4px solid var(--accent-color);
+            transition: transform 0.3s ease;
+        }
+
+        .overview-card:hover {
+            transform: translateX(5px);
+        }
+
+        .overview-card h3 {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .overview-card p {
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        /* Chapters Section */
+        .chapters-section {
+            background: var(--white);
+            padding: 80px 20px;
+        }
+
+        .chapters-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .chapter-card {
+            background: var(--bg-light);
+            border-radius: 10px;
+            padding: 30px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+
+        .chapter-card:hover {
+            border-color: var(--accent-color);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .chapter-number {
+            display: inline-block;
+            background: var(--accent-color);
+            color: var(--white);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .chapter-card h3 {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .chapter-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .chapter-resources {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .resource-badge {
+            background: var(--white);
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            color: var(--accent-color);
+            border: 1px solid var(--accent-color);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+            color: var(--white);
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--gold-accent);
+            color: var(--primary-color);
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-top: 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(212, 165, 116, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(212, 165, 116, 0.4);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-dark);
+            color: var(--white);
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        footer p {
+            opacity: 0.8;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero h2 {
+                font-size: 1.2rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .editor-header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .editor-contact {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="publisher-badge">Published by Routledge/Taylor & Francis</div>
+            <h1>AI Integration in AEC Education</h1>
+            <h2>Methods and Resources for the Built Environment</h2>
+            <p style="max-width: 800px; margin: 0 auto; font-size: 1.1rem; opacity: 0.9;">
+                A comprehensive guide to integrating artificial intelligence into Architecture, Engineering, 
+                and Construction education, bridging theory with practical applications.
+            </p>
+        </div>
+    </section>
+
+    <!-- Editor & Contributors Section -->
+    <section class="editors-section">
+        <div class="container">
+            <h2 class="section-title">Editor</h2>
+            
+            <div class="editor-card">
+                <div class="editor-header">
+                    <div class="editor-avatar">MRH</div>
+                    <div class="editor-info">
+                        <h3>Dr. M. Reza Hosseini</h3>
+                        <p class="editor-title">Senior Lecturer in Construction Technology</p>
+                        <p class="editor-affiliation">Faculty of Architecture, Building and Planning, The University of Melbourne</p>
+                    </div>
+                </div>
+                <div class="editor-bio">
+                    <p>Dr. M. Reza Hosseini is a distinguished scholar and global leader in the intersection of artificial intelligence and construction technology. Currently serving as Senior Lecturer in Construction Technology at the University of Melbourne's Faculty of Architecture, Building and Planning, Dr. Hosseini has achieved remarkable recognition, ranking among the top 2% of researchers globally.</p>
+                    
+                    <p style="margin-top: 15px;">His scholarly output encompasses approximately 240 papers and book chapters, establishing him as a pioneering force in digitalized construction and AI education. As a Research Fellow at the Centre for Research in Assessment and Digital Learning (CRADLE), Dr. Hosseini bridges the critical gap between AI technology and educational innovation.</p>
+                    
+                    <p style="margin-top: 15px;">He is the founder and leader of the Australian BIM Academic Forum (ABAF), establishing him as a key figure in shaping BIM and AI education across Australia. His seminal work, "BIM Teaching and Learning Handbook," provides the essential framework for integrating Building Information Modelling with AI technologies.</p>
+                </div>
+                <div class="editor-contact">
+                    <a href="mailto:mreza.hosseini@unimelb.edu.au" class="contact-link">
+                        ✉️ Email
+                    </a>
+                    <a href="tel:+61404724858" class="contact-link">
+                        📞 Phone
+                    </a>
+                    <a href="https://findanexpert.unimelb.edu.au/profile/862492-m.-reza-hosseini" class="contact-link" target="_blank">
+                        🎓 Profile
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=yr0mQVcAAAAJ" class="contact-link" target="_blank">
+                        📚 Google Scholar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Overview Section -->
+    <section class="overview-section">
+        <div class="container">
+            <h2 class="section-title">About This Book</h2>
+            <div class="overview-grid">
+                <div class="overview-card">
+                    <h3>📖 Comprehensive Coverage</h3>
+                    <p>Ten structured chapters covering the full spectrum of AI integration in AEC education, from foundational concepts to advanced applications and future trends.</p>
+                </div>
+                <div class="overview-card">
+                    <h3>🎯 Practical Resources</h3>
+                    <p>Each chapter includes exercise files, presentation slides, assessment rubrics, and hands-on activities designed for immediate classroom implementation.</p>
+                </div>
+                <div class="overview-card">
+                    <h3>🔬 Research-Based</h3>
+                    <p>Grounded in the latest research and best practices, combining theoretical frameworks with evidence-based pedagogical approaches.</p>
+                </div>
+                <div class="overview-card">
+                    <h3>🌍 Global Perspective</h3>
+                    <p>Drawing on international case studies and diverse educational contexts to provide a truly global view of AI in AEC education.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chapters Section -->
+    <section class="chapters-section">
+        <div class="container">
+            <h2 class="section-title">Chapter Overview</h2>
+            <div class="chapters-grid">
+                <div class="chapter-card">
+                    <span class="chapter-number">Chapter 1</span>
+                    <h3>Foundations of AI in AEC</h3>
+                    <p>Introduction to artificial intelligence, machine learning, and their transformative potential in architecture, engineering, and construction.</p>
+                    <div class="chapter-resources">
+                        <span class="resource-badge">Presentations</span>
+                        <span class="resource-badge">Exercises</span>
+                        <span class="resource-badge">Readings</span>
+                    </div>
+                </div>
+
+                <div class="chapter-card">
+                    <span class="chapter-number">Chapter 2</span>
+                    <h3>AI Literacy for AEC Educators</h3>
+                    <p>Building foundational AI literacy and competencies for educators in the built environment disciplines.</p>
+                    <div class="chapter-resources">
+                        <span class="resource-badge">Presentations</span>
+                        <span class="resource-badge">Exercises</span>
+                        <span class="resource-badge">Assessments</span>
+                    </div>
+                </div>
+
+                <div class="chapter-card">
+                    <span class="chapter-number">Chapter 3</span>
+                    <h3>Pedagogical Frameworks</h3>
+                    <p>Effective teaching strategies and pedagogical models for integrating AI into AEC curricula.</p>
+                    <div class="chapter-resources">
+                        <span class="resource-badge">Presentations</span>
+                        <span class="resource-badge">Case Studies</span>
+                        <span class="resource-badge">Templates</span>
+                    </div>
+                </div>
+
+                <div class="chapter-card">
+                    <span class="chapter-number">Chapter 4</span>
+                    <h3>AI Tools for Design</h3>
+                    <p>Generative design, computational design, and AI-powered architectural and engineering design tools.</p>
+                    <div class="chapter-resources">
+                        <span class="resource-badge">Presentations</span>
+                        <span class="resource-badge">Software Guides</span>
+                        <span class="resource-badge">Projects</span>
+                    </div>
+                </div>
+
+                <div class="chapter-card">
+                    <span class="chapter-number">Chapter 5</span>
+                    <h3>AI in Construction Management</h3>
+                    <p>Applications of AI in project management, scheduling, resource optimization, and construction operations.</p>
+                    <div class="chapter-resources">
+                        <span class="resource-badge">Presentations</span>
+                        <span class="resource-badge">Simulations</span>
+                        <span class="resource-badge">Exercises</span>
+                    </div>
+                </div>
+
+                <div class="chapter-card">
+                    <span class="chapter-number">Chapter 6</span>
+                    <h3>BIM and AI Integration</h3>
+                    <p>Synergies between Building Information Modeling and artificial intelligence technologies.</p>
+                    <div class="chapter-resources">
+                        <span class="resource-badge">Presentations</span>
+                        <span class="resource-badge">Tutorials</span>
+                        <span class="resource-badge">Models</span>
+                    </div>
+                </div>
+
+                <div class="chapter-card">
+                    <span class="chapter-number">Chapter 7</span>
+                    <h3>Sustainability and AI</h3>
+                    <p>Leveraging AI for sustainable design, circular construction, and environmental optimization.</p>
+                    <div class="chapter-resources">
+                        <span class="resource-badge">Presentations</span>
+                        <span class="resource-badge">Calculators</span>
+                        <span class="resource-badge">Case Studies</span>
+                    </div>
+                </div>
+
+                <div class="chapter-card">
+                    <span class="chapter-number">Chapter 8</span>
+                    <h3>Ethics and Governance</h3>
+                    <p>Ethical considerations, bias mitigation, and responsible AI implementation in the built environment.</p>
+                    <div class="chapter-resources">
+                        <span class="resource-badge">Presentations</span>
+                        <span class="resource-badge">Discussions</span>
+                        <span class="resource-badge">Frameworks</span>
+                    </div>
+                </div>
+
+                <div class="chapter-card">
+                    <span class="chapter-number">Chapter 9</span>
+                    <h3>Assessment and Evaluation</h3>
+                    <p>Methods for assessing student learning outcomes in AI-enhanced AEC education programs.</p>
+                    <div class="chapter-resources">
+                        <span class="resource-badge">Presentations</span>
+                        <span class="resource-badge">Rubrics</span>
+                        <span class="resource-badge">Templates</span>
+                    </div>
+                </div>
+
+                <div class="chapter-card">
+                    <span class="chapter-number">Chapter 10</span>
+                    <h3>Future Directions</h3>
+                    <p>Emerging trends, research opportunities, and the future landscape of AI in AEC education.</p>
+                    <div class="chapter-resources">
+                        <span class="resource-badge">Presentations</span>
+                        <span class="resource-badge">Research</span>
+                        <span class="resource-badge">Roadmaps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 20px;">
+                Ready to Transform AEC Education?
+            </h2>
+            <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto;">
+                Explore the complete repository of resources, presentations, and materials to integrate AI into your curriculum.
+            </p>
+            <a href="#chapters" class="cta-button">Explore Chapters</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Dr. M. Reza Hosseini | Published by Routledge/Taylor & Francis</p>
+            <p style="margin-top: 10px; font-size: 0.9rem;">
+                Faculty of Architecture, Building and Planning, The University of Melbourne
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
