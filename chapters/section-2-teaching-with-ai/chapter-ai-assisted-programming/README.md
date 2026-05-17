@@ -227,12 +227,7 @@ Choose the path that matches your goals:
 
 ## 📚 Further Reading
 
-| Resource | Type |
-|:---------|:----:|
-| [A Practical Guide to Building Agents (OpenAI)](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) | 📄 PDF |
-| [Building Effective Agents (Anthropic)](https://www.anthropic.com/research/building-effective-agents) | 🌐 Web |
-| [n8n Documentation](https://docs.n8n.io/) | 📖 Docs |
-| [MindStudio University](https://university.mindstudio.ai/) | 🎥 Video |
+*Coming soon.*
 
 ---
 
