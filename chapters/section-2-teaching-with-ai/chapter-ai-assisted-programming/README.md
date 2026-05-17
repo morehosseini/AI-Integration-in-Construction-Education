@@ -249,3 +249,4 @@ Choose the path that matches your goals:
 <p align="center">
   <em>Part of</em> <a href="../../../"><strong>AI Integration in AEC Education</strong></a> · <em>Section 2: Teaching with AI</em>
 </p>
+
