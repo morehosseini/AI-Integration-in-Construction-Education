@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">🏗️ AI-Assisted Programming</h1>
-<h3 align="center"><em>Turning Construction Professionals into Citizen Developers</em></h3>
+<h3 align="center"><em>for Construction Professionals</em></h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -44,13 +44,79 @@ graph LR
 
 ## 🧠 Key Concepts at a Glance
 
+<p align="center">
+  <img src="assets/figure_2_concepts_and_models.png" alt="Figure 2 — Concepts and Models in AI-Enhanced Programming" width="85%"/>
+  <br><em>Figure 2. Relationships among AI-assisted programming concepts and terms</em>
+</p>
+
 | Concept | What It Means | Why It Matters |
 |:--------|:-------------|:--------------|
-| 🏭 **Citizen Developer** | A non-programmer who builds functional tools by directing AI | You don't need a CS degree to create software |
-| 🎯 **Constrained Prompting** | Specifying libraries, rules, and output formats in your AI prompt | Prevents the AI from "going rogue" — you stay in control |
+| 🤝 **AI Partnership Model** | Human directs, AI generates code, human reviews and validates | Safe for high-stakes domains — every decision is visible and reversible |
+| 🎶 **Vibe Coding** | Intuitive, natural-language-driven development where you "give in to the vibes" | Lowers the barrier to entry — you describe *what* you want, not *how* |
+| 🎯 **Context Engineering** | Deliberately structuring everything the LLM needs to complete a task | The evolution of prompt engineering — you stay in control of AI output |
 | 🧬 **Hybrid Architecture** | LLM for interpretation + Python for calculation | AI handles language; code handles maths — each does what it's best at |
-| 🛡️ **Human-in-the-Loop** | Mandatory approval gates before the AI proceeds | No black boxes — every decision is visible and reversible |
 | 📊 **Data Grounding** | Using curated rate libraries instead of AI guesses | Durations come from real data, not hallucinations |
+
+---
+
+## 🛡️ AI Partnership vs Autonomous Agents
+
+This chapter specifically focuses on the **AI Partnership Model** — not autonomous agents. The distinction is critical:
+
+| | AI Partnership (This Chapter) | Autonomous Agents |
+|:-:|:------|:------|
+| **Control** | Human provides directives at every step | Human gives a high-level goal; agent acts independently |
+| **Review** | Human reviews and validates every output | Agent plans, executes, and delivers final output |
+| **Safety** | Human-in-the-Loop (HITL) — transparent and auditable | Requires safety guardrails and logging |
+| **Best for** | High-stakes, domain-specific tools | Complex, multi-step automation tasks |
+
+> [!NOTE]
+> For the autonomous agent approach, see the companion chapter on **Agentic AI** in this book.
+
+---
+
+## 📐 The Four-Stage DSR Framework
+
+The chapter proposes a structured methodology for AI-assisted development, grounded in Design Science Research (DSR):
+
+<p align="center">
+  <img src="assets/figure_8_dsr_framework.png" alt="Figure 8 — DSR Four-Stage Framework" width="90%"/>
+  <br><em>Figure 8. DSR Integration with Four-Stage AI-Assisted Programming Framework</em>
+</p>
+
+| Stage | Focus | Output |
+|:-----:|:------|:-------|
+| **1. Specification** | AI-facilitated interview to define *what* to build | Developer-ready project specification |
+| **2. Blueprint** | Transform specs into *how* to build it | Multi-phase technical blueprint with system prompts |
+| **3. Roadmap** | Break the blueprint into a *to-do list* | Checkpoint-based implementation roadmap |
+| **4. Documentation** | Capture the process, evaluate, and learn | Lessons learned repository + evaluation report |
+
+---
+
+## 📈 Why This Matters for Construction
+
+<p align="center">
+  <img src="assets/figure_3_key_benefits.png" alt="Figure 3 — Key Benefits of Programming for Construction" width="75%"/>
+  <br><em>Figure 3. Key benefits of programming for construction management professionals</em>
+</p>
+
+<details>
+<summary>🔍 <strong>Overcoming "Code Fear"</strong> (click to expand)</summary>
+<br>
+
+For many students from non-IT backgrounds, the prospect of learning programming can be daunting — a phenomenon termed **"code fear"**. AI-assisted tools directly address this by:
+
+- Translating natural language into working code
+- Providing real-time explanations and debugging help
+- Allowing focus on **problem decomposition** rather than syntax
+- Creating a safe environment for iterative experimentation
+
+<p align="center">
+  <img src="assets/figure_7_complexity_vs_structure.png" alt="Figure 7 — Complexity vs Structure" width="55%"/>
+  <br><em>Figure 7. The relationship between project complexity and required structural methodology</em>
+</p>
+
+</details>
 
 ---
 
@@ -236,7 +302,7 @@ Choose the path that matches your goals:
 ```bibtex
 @incollection{hosseini2026ai,
   author    = {Hosseini, M. Reza and Xie, Xiao and Herrera, Rodrigo F. and Kassem, Mohamad},
-  title     = {AI-Assisted Programming: Turning Construction Professionals into Citizen Developers},
+  title     = {AI-Assisted Programming for Construction Professionals},
   booktitle = {AI Integration in Construction Education: Methods and Resources},
   editor    = {Hosseini, M. Reza},
   publisher = {Routledge/Taylor \& Francis},
@@ -249,4 +315,3 @@ Choose the path that matches your goals:
 <p align="center">
   <em>Part of</em> <a href="../../../"><strong>AI Integration in AEC Education</strong></a> · <em>Section 2: Teaching with AI</em>
 </p>
-
