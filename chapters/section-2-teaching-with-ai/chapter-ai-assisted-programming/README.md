@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <strong>Authors:</strong> M. Reza Hosseini · Xiao Xie · Rodrigo F. Herrera · Mohamad Kassem
+  <strong>Authors:</strong> M. Reza Hosseini · Xiang Xie · Manuel Herrera · Mohamad Kassem
 </p>
 
 ---
@@ -301,7 +301,7 @@ Choose the path that matches your goals:
 
 ```bibtex
 @incollection{hosseini2026ai,
-  author    = {Hosseini, M. Reza and Xie, Xiao and Herrera, Rodrigo F. and Kassem, Mohamad},
+  author    = {Hosseini, M. Reza and Xie, Xiang and Herrera, Manuel and Kassem, Mohamad},
   title     = {AI-Assisted Programming for Construction Professionals},
   booktitle = {AI Integration in Construction Education: Methods and Resources},
   editor    = {Hosseini, M. Reza},
