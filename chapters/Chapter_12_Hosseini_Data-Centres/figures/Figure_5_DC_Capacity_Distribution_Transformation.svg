@@ -1,0 +1,113 @@
+<svg width="1600" height="950" viewBox="0 0 1600 950" xmlns="http://www.w3.org/2000/svg">
+  <title>Global Data Centre Capacity Distribution</title>
+  <desc>Stacked area chart showing global data centre capacity distribution across four deployment models (Enterprise/On-Premises, Colocation, Hyperscale, and Edge) from 2020 to 2030.</desc>
+
+  <!-- Background -->
+  <rect width="1600" height="950" fill="#FFFFFF"/>
+
+  <!-- Title & Subtitle -->
+  <text x="170" y="80" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#000F46">Global Data Centre Capacity Distribution</text>
+  <text x="170" y="125" font-family="Arial, sans-serif" font-size="22" fill="#333333">MW share of active capacity across deployment models, 2020–2030 (adapted from Synergy Research and IDC)</text>
+
+  <!-- Legend -->
+  <g>
+    <!-- Enterprise/On-Premises Legend -->
+    <rect x="170" y="150" width="30" height="15" fill="#1B3673"/>
+    <text x="215" y="163" font-family="Arial, sans-serif" font-size="18" fill="#333333">Enterprise/On-Premises</text>
+    
+    <!-- Colocation Legend -->
+    <rect x="520" y="150" width="30" height="15" fill="#3C5FA6"/>
+    <text x="565" y="163" font-family="Arial, sans-serif" font-size="18" fill="#333333">Colocation</text>
+
+    <!-- Hyperscale Legend -->
+    <rect x="800" y="150" width="30" height="15" fill="#000F46"/>
+    <text x="845" y="163" font-family="Arial, sans-serif" font-size="18" fill="#333333">Hyperscale</text>
+
+    <!-- Edge Legend -->
+    <rect x="1110" y="150" width="30" height="15" fill="#46C8F0"/>
+    <text x="1155" y="163" font-family="Arial, sans-serif" font-size="18" fill="#333333">Edge</text>
+  </g>
+
+  <!-- Horizontal Gridlines -->
+  <line x1="170" y1="630" x2="1370" y2="630" stroke="#D9D9D9" stroke-width="1.5"/>
+  <line x1="170" y1="520" x2="1370" y2="520" stroke="#D9D9D9" stroke-width="1.5"/>
+  <line x1="170" y1="410" x2="1370" y2="410" stroke="#D9D9D9" stroke-width="1.5"/>
+  <line x1="170" y1="300" x2="1370" y2="300" stroke="#D9D9D9" stroke-width="1.5"/>
+  <line x1="170" y1="190" x2="1370" y2="190" stroke="#D9D9D9" stroke-width="1.5"/>
+
+  <!-- Stacked Areas (Enterprise -> Colocation -> Hyperscale -> Edge) -->
+  <g>
+    <!-- Enterprise/On-Premises (Bottom) -->
+    <path d="M 170,740 L 170,421 L 410,432 L 650,476 L 890,520 L 1130,564 L 1370,602.5 L 1370,740 Z" fill="#1B3673" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- Colocation (Second) -->
+    <path d="M 170,421 L 170,300 L 410,311 L 650,366 L 890,421 L 1130,476 L 1370,536.5 L 1370,602.5 L 1130,564 L 890,520 L 650,476 L 410,432 Z" fill="#3C5FA6" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- Hyperscale (Third) -->
+    <path d="M 170,300 L 170,217.5 L 410,212 L 650,206.5 L 890,203.75 L 1130,201 L 1370,201 L 1370,536.5 L 1130,476 L 890,421 L 650,366 L 410,311 Z" fill="#000F46" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- Edge (Top) -->
+    <path d="M 170,217.5 L 170,190 L 410,190 L 650,190 L 890,190 L 1130,190 L 1370,190 L 1370,201 L 1130,201 L 890,203.75 L 650,206.5 L 410,212 Z" fill="#46C8F0" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Left Y-axis (Percentage) Ticks -->
+  <line x1="170" y1="740" x2="160" y2="740" stroke="#333333" stroke-width="1.5"/>
+  <line x1="170" y1="630" x2="160" y2="630" stroke="#333333" stroke-width="1.5"/>
+  <line x1="170" y1="520" x2="160" y2="520" stroke="#333333" stroke-width="1.5"/>
+  <line x1="170" y1="410" x2="160" y2="410" stroke="#333333" stroke-width="1.5"/>
+  <line x1="170" y1="300" x2="160" y2="300" stroke="#333333" stroke-width="1.5"/>
+  <line x1="170" y1="190" x2="160" y2="190" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- Left Y-axis Tick Labels -->
+  <text x="150" y="747" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="end">0%</text>
+  <text x="150" y="637" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="end">20%</text>
+  <text x="150" y="527" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="end">40%</text>
+  <text x="150" y="417" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="end">60%</text>
+  <text x="150" y="307" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="end">80%</text>
+  <text x="150" y="197" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="end">100%</text>
+
+  <!-- X-axis Ticks -->
+  <line x1="170" y1="740" x2="170" y2="750" stroke="#333333" stroke-width="1.5"/>
+  <line x1="410" y1="740" x2="410" y2="750" stroke="#333333" stroke-width="1.5"/>
+  <line x1="650" y1="740" x2="650" y2="750" stroke="#333333" stroke-width="1.5"/>
+  <line x1="890" y1="740" x2="890" y2="750" stroke="#333333" stroke-width="1.5"/>
+  <line x1="1130" y1="740" x2="1130" y2="750" stroke="#333333" stroke-width="1.5"/>
+  <line x1="1370" y1="740" x2="1370" y2="750" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- Year Labels (X-axis) -->
+  <text x="170" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2020</text>
+  <text x="410" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2022</text>
+  <text x="650" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2024</text>
+  <text x="890" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2026</text>
+  <text x="1130" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2028</text>
+  <text x="1370" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2030</text>
+
+  <!-- Axis Lines -->
+  <line x1="170" y1="190" x2="170" y2="740" stroke="#333333" stroke-width="2"/>
+  <line x1="170" y1="740" x2="1370" y2="740" stroke="#333333" stroke-width="2"/>
+
+  <!-- Value Labels inside bands (2020) -->
+  <text x="220" y="590" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">58%</text>
+  <text x="220" y="370" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">22%</text>
+  <text x="220" y="265" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">15%</text>
+
+  <!-- Value Labels inside bands (2030) -->
+  <text x="1320" y="680" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">25%</text>
+  <text x="1320" y="575" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">12%</text>
+  <text x="1320" y="380" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">61%</text>
+
+  <!-- Callout Box: Hyperscale dominance driven by AI & Cloud -->
+  <g>
+    <!-- Rounded Rectangle Callout Box -->
+    <rect x="700" y="280" width="460" height="100" rx="15" ry="15" fill="#FFFFFF" stroke="#000F46" stroke-width="2" filter="none"/>
+    
+    <!-- Cloud Icon -->
+    <path d="M 732,340 C 727,340 722,336 722,330 C 722,326 725,322 729,321 C 730,314 736,308 743,308 C 748,308 753,311 756,315 C 758,313 762,312 765,312 C 770,312 774,316 774,321 C 778,322 780,326 780,330 C 780,336 775,340 770,340 Z" fill="none" stroke="#000F46" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Icon text -->
+    <text x="751" y="334" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000F46" text-anchor="middle">AI</text>
+
+    <!-- Callout Text -->
+    <text x="795" y="325" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333333">Hyperscale dominance</text>
+    <text x="795" y="358" font-family="Arial, sans-serif" font-size="20" fill="#666666">driven by AI &amp; Cloud</text>
+  </g>
+</svg>

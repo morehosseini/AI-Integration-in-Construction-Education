@@ -225,11 +225,27 @@
             padding: 80px 20px;
         }
 
+        .part-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+
         .chapters-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             gap: 25px;
-            margin-top: 40px;
+            margin-top: 20px;
+        }
+        
+        .chapter-link-wrapper {
+            text-decoration: none;
+            color: inherit;
+            display: block;
         }
 
         .chapter-card {
@@ -239,6 +255,7 @@
             transition: all 0.3s ease;
             cursor: pointer;
             border: 2px solid transparent;
+            height: 100%;
         }
 
         .chapter-card:hover {
@@ -262,10 +279,17 @@
             font-size: 1.2rem;
             margin-bottom: 10px;
         }
+        
+        .chapter-card h4 {
+            font-size: 0.95rem;
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
 
         .chapter-card p {
             color: var(--text-light);
-            font-size: 0.95rem;
+            font-size: 0.9rem;
             line-height: 1.6;
         }
 
@@ -409,11 +433,11 @@
             <div class="overview-grid">
                 <div class="overview-card">
                     <h3>📖 Comprehensive Coverage</h3>
-                    <p>Ten structured chapters covering the full spectrum of AI integration in AEC education, from foundational concepts to advanced applications and future trends.</p>
+                    <p>Sixteen chapters covering the full spectrum of AI integration in AEC education, from foundational concepts to advanced applications and future trends.</p>
                 </div>
                 <div class="overview-card">
                     <h3>🎯 Practical Resources</h3>
-                    <p>Each chapter includes exercise files, presentation slides, assessment rubrics, and hands-on activities designed for immediate classroom implementation.</p>
+                    <p>Each chapter includes supplementary material such as figures, code, appendices, and datasets designed for deeper learning.</p>
                 </div>
                 <div class="overview-card">
                     <h3>🔬 Research-Based</h3>
@@ -428,119 +452,174 @@
     </section>
 
     <!-- Chapters Section -->
-    <section class="chapters-section">
+    <section class="chapters-section" id="chapters">
         <div class="container">
             <h2 class="section-title">Chapter Overview</h2>
+            
+            <h3 class="part-title">Part I: Foundations</h3>
             <div class="chapters-grid">
-                <div class="chapter-card">
-                    <span class="chapter-number">Chapter 1</span>
-                    <h3>Foundations of AI in AEC</h3>
-                    <p>Introduction to artificial intelligence, machine learning, and their transformative potential in architecture, engineering, and construction.</p>
-                    <div class="chapter-resources">
-                        <span class="resource-badge">Presentations</span>
-                        <span class="resource-badge">Exercises</span>
-                        <span class="resource-badge">Readings</span>
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_01_Tummalapudi_AI-Simple-Terms" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number">Chapter 1</span>
+                        <h3>Artificial Intelligence (AI) in Simple Terms</h3>
+                        <h4>Manideep Tummalapudi, M. Reza Hosseini, Wei Wu, Bradley Hyatt</h4>
+                        <div class="chapter-resources">
+                            <span class="resource-badge">Figures</span>
+                        </div>
                     </div>
-                </div>
+                </a>
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_02_Cheng_AI-Literacy" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number">Chapter 2</span>
+                        <h3>Integrating AI Literacy into Construction Education: Definitions, Frameworks and Lessons Learned</h3>
+                        <h4>Jiun-Yao Cheng, Masoud Gheisari, Idris Jeelani</h4>
+                        <div class="chapter-resources">
+                            <span class="resource-badge">Figures</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_03_Martek_AI-Engineering-Education" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number">Chapter 3</span>
+                        <h3>The Impact of Generative Artificial Intelligence on Built Environment and Engineering Education</h3>
+                        <h4>Igor Martek, Mehdi Amirkhani, Chayakan Siamphukdee</h4>
+                        <div class="chapter-resources">
+                            <span class="resource-badge">Figures</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_04_Kassem_AI-Capability-Framework_DRAFT_NotAccepted" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number" style="background-color: #718096;">Forthcoming - Chapter 4</span>
+                        <h3>When Technical Outputs No Longer Demonstrate Competence: A Capability Framework for AI-Enabled Built Environment Education</h3>
+                        <h4>Mohamad Kassem, Miroslaw J. Skibniewski, Abdulmalik Badamasi, M. Reza Hosseini</h4>
+                    </div>
+                </a>
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_05_Hosseini_AI-Ethics-Foundations_DRAFT_NotAccepted" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number" style="background-color: #718096;">Forthcoming - Chapter 5</span>
+                        <h3>Beyond the Algorithm: Your Role in Ethical AI Deployment</h3>
+                        <h4>M. Reza Hosseini, Abdolmajid "Mazi" Erfani, Fahimeh Abedi, Deniz Besiktepe, Heng Li, Miroslaw J. Skibniewski</h4>
+                    </div>
+                </a>
+            </div>
 
-                <div class="chapter-card">
-                    <span class="chapter-number">Chapter 2</span>
-                    <h3>AI Literacy for AEC Educators</h3>
-                    <p>Building foundational AI literacy and competencies for educators in the built environment disciplines.</p>
-                    <div class="chapter-resources">
-                        <span class="resource-badge">Presentations</span>
-                        <span class="resource-badge">Exercises</span>
-                        <span class="resource-badge">Assessments</span>
+            <h3 class="part-title">Part II: Teaching, Curriculum, Professional Formation</h3>
+            <div class="chapters-grid">
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_06_Gaspar_Teaching-Methodologies" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number">Chapter 6</span>
+                        <h3>AI in Construction: Identifying Competencies and Analysing Teaching Methods</h3>
+                        <h4>Katia Gaspar, Núria Forcada</h4>
                     </div>
-                </div>
+                </a>
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_07_Bartels_AI-Education-Germany" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number">Chapter 7</span>
+                        <h3>Embedding AI in Existing and New Curricula: A Survey-Based Study for AEC Education in Germany</h3>
+                        <h4>Niels Bartels, Tobias Maile, Reinhard Wimmer</h4>
+                        <div class="chapter-resources">
+                            <span class="resource-badge">Figures</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_08_Debs_GPT-LLM-Benefits_DRAFT_NotAccepted" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number" style="background-color: #718096;">Forthcoming - Chapter 8</span>
+                        <h3>Guidelines and Benefits of GPT/LLM in Construction Management Education</h3>
+                        <h4>Luciana Debs, Deniz Besiktepe</h4>
+                    </div>
+                </a>
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_09_Katooziani_LLM-Adaptive-Learning" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number">Chapter 9</span>
+                        <h3>Large Language Models (LLMs) for Adaptive and Personalized Learning in Construction Education</h3>
+                        <h4>Ali Katooziani, Masoud Gheisari, Idris Jeelani</h4>
+                        <div class="chapter-resources">
+                            <span class="resource-badge">Figures</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_10_Kassem_Professional-Judgement_DRAFT_NotAccepted" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number" style="background-color: #718096;">Forthcoming - Chapter 10</span>
+                        <h3>The Automation of Thinking? AI and the Future of Professional Judgement in Built Environment Education</h3>
+                        <h4>Mohamad Kassem, Abdulmalik Badamasi, M. Reza Hosseini</h4>
+                    </div>
+                </a>
+            </div>
 
-                <div class="chapter-card">
-                    <span class="chapter-number">Chapter 3</span>
-                    <h3>Pedagogical Frameworks</h3>
-                    <p>Effective teaching strategies and pedagogical models for integrating AI into AEC curricula.</p>
-                    <div class="chapter-resources">
-                        <span class="resource-badge">Presentations</span>
-                        <span class="resource-badge">Case Studies</span>
-                        <span class="resource-badge">Templates</span>
+            <h3 class="part-title">Part III: Data, Infrastructure, Applied AI Capabilities</h3>
+            <div class="chapters-grid">
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_11_Hosseini_Construction-Data-for-AI" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number">Chapter 11</span>
+                        <h3>The Digital Blueprint: Structuring Heterogeneous Construction Data for Artificial Intelligence</h3>
+                        <h4>M. Reza Hosseini, Ruoxin Xiong, Amir Soroush, Tim Mumford</h4>
+                        <div class="chapter-resources">
+                            <span class="resource-badge">Figures</span>
+                            <span class="resource-badge">Appendices</span>
+                        </div>
                     </div>
-                </div>
+                </a>
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_12_Hosseini_Data-Centres" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number">Chapter 12</span>
+                        <h3>Data Centres for the AI Era: A Construction Manager's Guide</h3>
+                        <h4>M. Reza Hosseini, Ania Khodabakhshian, Brooks H. Smith, Abdolmajid Erfani, Manideep Tummalapudi</h4>
+                        <div class="chapter-resources">
+                            <span class="resource-badge">Figures</span>
+                            <span class="resource-badge">Appendices</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_13_Hosseini_AI-Assisted-Programming" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number">Chapter 13</span>
+                        <h3>AI-Assisted Programming in Construction Education</h3>
+                        <h4>M. Reza Hosseini, Xiang Xie, Manuel Herrera, Mohamad Kassem</h4>
+                        <div class="chapter-resources">
+                            <span class="resource-badge">Figures</span>
+                            <span class="resource-badge">Code</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_14_McArthur_Digital-Twins" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number">Chapter 14</span>
+                        <h3>Digital Twins as Pedagogical Tools for Construction 4.0</h3>
+                        <h4>Jenn McArthur</h4>
+                        <div class="chapter-resources">
+                            <span class="resource-badge">Figures</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_15_Hosseini_Agentic-AI" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number">Chapter 15</span>
+                        <h3>Agentic AI in Construction: Frameworks, Use Cases, and Practical Governance</h3>
+                        <h4>M. Reza Hosseini, Mohamad Kassem, Ruoxin Xiong, Bree Trevena</h4>
+                        <div class="chapter-resources">
+                            <span class="resource-badge">Figures</span>
+                            <span class="resource-badge">Appendices</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
 
-                <div class="chapter-card">
-                    <span class="chapter-number">Chapter 4</span>
-                    <h3>AI Tools for Design</h3>
-                    <p>Generative design, computational design, and AI-powered architectural and engineering design tools.</p>
-                    <div class="chapter-resources">
-                        <span class="resource-badge">Presentations</span>
-                        <span class="resource-badge">Software Guides</span>
-                        <span class="resource-badge">Projects</span>
+            <h3 class="part-title">Part IV: Capstone</h3>
+            <div class="chapters-grid">
+                <a href="https://github.com/morehosseini/AI-Integration-in-Construction-Education/tree/main/chapters/Chapter_16_Hosseini_AI-Ethics-Operationalisation" class="chapter-link-wrapper" target="_blank">
+                    <div class="chapter-card">
+                        <span class="chapter-number">Chapter 16</span>
+                        <h3>Operationalising AI Ethics in Construction: Principles, Governance, and Tools</h3>
+                        <h4>M. Reza Hosseini, Abdolmajid "Mazi" Erfani, Fahimeh Abedi, Deniz Besiktepe, Heng Li, Miroslaw J. Skibniewski</h4>
+                        <div class="chapter-resources">
+                            <span class="resource-badge">Figures</span>
+                            <span class="resource-badge">Appendices</span>
+                        </div>
                     </div>
-                </div>
-
-                <div class="chapter-card">
-                    <span class="chapter-number">Chapter 5</span>
-                    <h3>AI in Construction Management</h3>
-                    <p>Applications of AI in project management, scheduling, resource optimization, and construction operations.</p>
-                    <div class="chapter-resources">
-                        <span class="resource-badge">Presentations</span>
-                        <span class="resource-badge">Simulations</span>
-                        <span class="resource-badge">Exercises</span>
-                    </div>
-                </div>
-
-                <div class="chapter-card">
-                    <span class="chapter-number">Chapter 6</span>
-                    <h3>BIM and AI Integration</h3>
-                    <p>Synergies between Building Information Modeling and artificial intelligence technologies.</p>
-                    <div class="chapter-resources">
-                        <span class="resource-badge">Presentations</span>
-                        <span class="resource-badge">Tutorials</span>
-                        <span class="resource-badge">Models</span>
-                    </div>
-                </div>
-
-                <div class="chapter-card">
-                    <span class="chapter-number">Chapter 7</span>
-                    <h3>Sustainability and AI</h3>
-                    <p>Leveraging AI for sustainable design, circular construction, and environmental optimization.</p>
-                    <div class="chapter-resources">
-                        <span class="resource-badge">Presentations</span>
-                        <span class="resource-badge">Calculators</span>
-                        <span class="resource-badge">Case Studies</span>
-                    </div>
-                </div>
-
-                <div class="chapter-card">
-                    <span class="chapter-number">Chapter 8</span>
-                    <h3>Ethics and Governance</h3>
-                    <p>Ethical considerations, bias mitigation, and responsible AI implementation in the built environment.</p>
-                    <div class="chapter-resources">
-                        <span class="resource-badge">Presentations</span>
-                        <span class="resource-badge">Discussions</span>
-                        <span class="resource-badge">Frameworks</span>
-                    </div>
-                </div>
-
-                <div class="chapter-card">
-                    <span class="chapter-number">Chapter 9</span>
-                    <h3>Assessment and Evaluation</h3>
-                    <p>Methods for assessing student learning outcomes in AI-enhanced AEC education programs.</p>
-                    <div class="chapter-resources">
-                        <span class="resource-badge">Presentations</span>
-                        <span class="resource-badge">Rubrics</span>
-                        <span class="resource-badge">Templates</span>
-                    </div>
-                </div>
-
-                <div class="chapter-card">
-                    <span class="chapter-number">Chapter 10</span>
-                    <h3>Future Directions</h3>
-                    <p>Emerging trends, research opportunities, and the future landscape of AI in AEC education.</p>
-                    <div class="chapter-resources">
-                        <span class="resource-badge">Presentations</span>
-                        <span class="resource-badge">Research</span>
-                        <span class="resource-badge">Roadmaps</span>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -561,7 +640,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Dr. M. Reza Hosseini | Published by Routledge/Taylor & Francis</p>
+            <p>&copy; 2026 Dr. M. Reza Hosseini | Published by Routledge/Taylor & Francis</p>
             <p style="margin-top: 10px; font-size: 0.9rem;">
                 Faculty of Architecture, Building and Planning, The University of Melbourne
             </p>

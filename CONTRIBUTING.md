@@ -7,8 +7,8 @@ This document outlines the process for submitting chapter drafts, case studies, 
 ## 👥 For Authors & Contributors
 
 ### 1. Where to Upload Your Work
-We use a structured folder system. Please navigate to:
-`chapters/` → `[Your Section]` → `[Your Chapter]`
+We use a flat folder system. Please navigate to:
+`chapters/` → `Chapter_NN_[Lead_Author]_[Short_Title]/`
 
 Inside your chapter folder, organize files as follows:
 * **Text/Manuscripts:** Upload to the `/text` subfolder.

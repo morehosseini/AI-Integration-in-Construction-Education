@@ -1,0 +1,153 @@
+<svg width="1600" height="950" viewBox="0 0 1600 950" xmlns="http://www.w3.org/2000/svg">
+  <title>AI Data Centre Infrastructure Surge, 2022–2030</title>
+  <desc>Simplified chart showing US annual construction spending and AI-related data-centre capacity demand after the late-2022 ChatGPT inflection point, with potential supply pressure highlighted in 2028–2029.</desc>
+
+  <!-- Background -->
+  <rect width="1600" height="950" fill="#FFFFFF"/>
+
+  <!-- Title & Subtitle -->
+  <text x="170" y="80" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#0F4761">AI Data Centre Infrastructure Surge, 2022–2030</text>
+  <text x="170" y="125" font-family="Arial, sans-serif" font-size="22" fill="#333333">Global AI-related capacity demand and US construction spending after the late-2022 inflection point</text>
+
+  <!-- Legend -->
+  <g>
+    <!-- Spending Legend -->
+    <rect x="170" y="150" width="30" height="15" fill="#2E6F95"/>
+    <text x="215" y="163" font-family="Arial, sans-serif" font-size="20" fill="#333333">US construction spending (USD billions)</text>
+    
+    <!-- Capacity Legend -->
+    <line x1="680" y1="157" x2="720" y2="157" stroke="#7A1FA2" stroke-width="4.5" stroke-linecap="round"/>
+    <circle cx="700" cy="157" r="6" fill="#7A1FA2" stroke="#FFFFFF" stroke-width="1.5"/>
+    <text x="735" y="163" font-family="Arial, sans-serif" font-size="20" fill="#333333">AI-related data-centre capacity demand (GW)</text>
+  </g>
+
+  <!-- Supply Pressure Shading (2028-2029) -->
+  <!-- Covers x from 965 to 1225 (midway between 2027 and 2028, to midway between 2029 and 2030) -->
+  <rect x="965" y="190" width="260" height="550" fill="#F5E6CC"/>
+  
+  <!-- Shading Text Labels -->
+  <text x="1095" y="230" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333333" text-anchor="middle">Potential supply pressure</text>
+  <text x="1095" y="255" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333333" text-anchor="middle">2028–2029</text>
+
+  <!-- Horizontal Gridlines (aligned to capacity ticks: 25, 50, 75, 100, 125 GW) -->
+  <line x1="170" y1="630" x2="1370" y2="630" stroke="#D9D9D9" stroke-width="1.5"/>
+  <line x1="170" y1="520" x2="1370" y2="520" stroke="#D9D9D9" stroke-width="1.5"/>
+  <line x1="170" y1="410" x2="1370" y2="410" stroke="#D9D9D9" stroke-width="1.5"/>
+  <line x1="170" y1="300" x2="1370" y2="300" stroke="#D9D9D9" stroke-width="1.5"/>
+  <line x1="170" y1="190" x2="1370" y2="190" stroke="#D9D9D9" stroke-width="1.5"/>
+
+  <!-- Left Y-axis (Spending) Ticks -->
+  <line x1="170" y1="740" x2="160" y2="740" stroke="#333333" stroke-width="1.5"/>
+  <line x1="170" y1="602.5" x2="160" y2="602.5" stroke="#333333" stroke-width="1.5"/>
+  <line x1="170" y1="465" x2="160" y2="465" stroke="#333333" stroke-width="1.5"/>
+  <line x1="170" y1="327.5" x2="160" y2="327.5" stroke="#333333" stroke-width="1.5"/>
+  <line x1="170" y1="190" x2="160" y2="190" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- Left Y-axis Tick Labels -->
+  <text x="150" y="747" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="end">0</text>
+  <text x="150" y="609.5" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="end">25</text>
+  <text x="150" y="472" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="end">50</text>
+  <text x="150" y="334.5" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="end">75</text>
+  <text x="150" y="197" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="end">100</text>
+
+  <!-- Left Y-axis Title -->
+  <text x="60" y="465" transform="rotate(-90 60 465)" font-family="Arial, sans-serif" font-size="22" fill="#333333" text-anchor="middle">US annual construction spending (USD billions)</text>
+
+  <!-- Right Y-axis (Capacity) Ticks -->
+  <line x1="1370" y1="740" x2="1380" y2="740" stroke="#333333" stroke-width="1.5"/>
+  <line x1="1370" y1="630" x2="1380" y2="630" stroke="#333333" stroke-width="1.5"/>
+  <line x1="1370" y1="520" x2="1380" y2="520" stroke="#333333" stroke-width="1.5"/>
+  <line x1="1370" y1="410" x2="1380" y2="410" stroke="#333333" stroke-width="1.5"/>
+  <line x1="1370" y1="300" x2="1380" y2="300" stroke="#333333" stroke-width="1.5"/>
+  <line x1="1370" y1="190" x2="1380" y2="190" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- Right Y-axis Tick Labels -->
+  <text x="1390" y="747" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="start">0</text>
+  <text x="1390" y="637" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="start">25</text>
+  <text x="1390" y="527" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="start">50</text>
+  <text x="1390" y="417" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="start">75</text>
+  <text x="1390" y="307" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="start">100</text>
+  <text x="1390" y="197" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="start">125</text>
+
+  <!-- Right Y-axis Title -->
+  <text x="1490" y="465" transform="rotate(90 1490 465)" font-family="Arial, sans-serif" font-size="22" fill="#333333" text-anchor="middle">AI-related data-centre capacity demand (GW)</text>
+
+  <!-- Year Labels (X-axis) -->
+  <text x="250" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2022</text>
+  <text x="380" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2023</text>
+  <text x="510" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2024</text>
+  <text x="640" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2025</text>
+  <text x="770" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2026</text>
+  <text x="900" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2027</text>
+  <text x="1030" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2028</text>
+  <text x="1160" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2029</text>
+  <text x="1290" y="780" font-family="Arial, sans-serif" font-size="20" fill="#333333" text-anchor="middle">2030</text>
+
+  <!-- Axis Lines (drawn on top of shading and gridlines) -->
+  <line x1="170" y1="190" x2="170" y2="740" stroke="#333333" stroke-width="2"/>
+  <line x1="1370" y1="190" x2="1370" y2="740" stroke="#333333" stroke-width="2"/>
+  <line x1="170" y1="740" x2="1370" y2="740" stroke="#333333" stroke-width="2"/>
+
+  <!-- US Construction Spending Bars -->
+  <!-- Width = 70. Centers: 250, 380, 510, 640, 770, 900, 1030, 1160, 1290 -->
+  <g>
+    <!-- 2022: $11B (height = 60.5) -->
+    <rect x="215" y="679.5" width="70" height="60.5" fill="#2E6F95"/>
+    <text x="250" y="662" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333333" text-anchor="middle">$11B</text>
+
+    <!-- 2023: $22B (height = 121) -->
+    <rect x="345" y="619" width="70" height="121" fill="#2E6F95"/>
+
+    <!-- 2024: $28B (height = 154) -->
+    <rect x="475" y="586" width="70" height="154" fill="#2E6F95"/>
+
+    <!-- 2025: $48B (height = 264) -->
+    <rect x="605" y="476" width="70" height="264" fill="#2E6F95"/>
+
+    <!-- 2026: $86B (height = 473) -->
+    <rect x="735" y="267" width="70" height="473" fill="#2E6F95"/>
+    <text x="770" y="250" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333333" text-anchor="middle">~$86B</text>
+
+    <!-- 2027: $82B (height = 451) -->
+    <rect x="865" y="289" width="70" height="451" fill="#2E6F95"/>
+
+    <!-- 2028: $75B (height = 412.5) -->
+    <rect x="995" y="327.5" width="70" height="412.5" fill="#2E6F95"/>
+
+    <!-- 2029: $70B (height = 385) -->
+    <rect x="1125" y="355" width="70" height="385" fill="#2E6F95"/>
+
+    <!-- 2030: $63B (height = 346.5) -->
+    <rect x="1255" y="393.5" width="70" height="346.5" fill="#2E6F95"/>
+    <text x="1290" y="375" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333333" text-anchor="middle">~$63B</text>
+  </g>
+
+  <!-- ChatGPT Inflection Marker (dashed line + label) -->
+  <!-- Centered at x = 315 (midway between 2022 and 2023) -->
+  <line x1="315" y1="190" x2="315" y2="740" stroke="#7A1FA2" stroke-width="2" stroke-dasharray="8,6"/>
+  <text x="305" y="235" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#7A1FA2" text-anchor="end">Late 2022</text>
+  <text x="305" y="255" font-family="Arial, sans-serif" font-size="15" fill="#333333" text-anchor="end">ChatGPT release</text>
+
+  <!-- AI-Related Capacity Demand Line -->
+  <!-- Points: 2023 (380, 630), 2026 (770, 520), 2028 (1030, 410), 2030 (1290, 190) -->
+  <g>
+    <path d="M 380 630 L 770 520 L 1030 410 L 1290 190" fill="none" stroke="#7A1FA2" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Data Point Markers -->
+    <circle cx="380" cy="630" r="7" fill="#7A1FA2" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="770" cy="520" r="7" fill="#7A1FA2" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="1030" cy="410" r="7" fill="#7A1FA2" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="1290" cy="190" r="7" fill="#7A1FA2" stroke="#FFFFFF" stroke-width="2"/>
+
+    <!-- Data Labels -->
+    <!-- White outlines for legibility against bars/shading -->
+    <text x="380" y="605" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round" text-anchor="middle">~25 GW</text>
+    <text x="380" y="605" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#7A1FA2" text-anchor="middle">~25 GW</text>
+
+    <text x="1030" y="380" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round" text-anchor="middle">~75 GW</text>
+    <text x="1030" y="380" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#7A1FA2" text-anchor="middle">~75 GW</text>
+
+    <text x="1290" y="160" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round" text-anchor="middle">~125 GW</text>
+    <text x="1290" y="160" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#7A1FA2" text-anchor="middle">~125 GW</text>
+  </g>
+</svg>

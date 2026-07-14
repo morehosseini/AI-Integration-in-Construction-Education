@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1051 690.7">
+  <!-- Generator: Adobe Illustrator 30.5.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 167)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #3f7d57;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5 {
+        fill: #fff;
+      }
+
+      .st0, .st1, .st3, .st5 {
+        stroke-width: 2.8px;
+      }
+
+      .st6 {
+        font-size: 8.1px;
+      }
+
+      .st6, .st7, .st2, .st8, .st9, .st10, .st4, .st11, .st12 {
+        isolation: isolate;
+      }
+
+      .st6, .st9, .st13 {
+        fill: #172033;
+      }
+
+      .st6, .st9, .st12 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st14 {
+        fill: #6f7f2a;
+      }
+
+      .st15 {
+        fill: url(#linear-gradient);
+      }
+
+      .st15, .st16 {
+        stroke: #27485a;
+        stroke-width: 3px;
+      }
+
+      .st17 {
+        fill: #8f5aa3;
+      }
+
+      .st7 {
+        font-size: 7.7px;
+      }
+
+      .st7, .st2, .st8, .st4, .st11 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st7, .st8, .st18, .st11 {
+        fill: #213547;
+      }
+
+      .st19 {
+        fill: #eaf6f1;
+        stroke: #31708f;
+      }
+
+      .st19, .st20 {
+        stroke-width: 2.5px;
+      }
+
+      .st21 {
+        fill: #2f6690;
+      }
+
+      .st1 {
+        stroke: #c45a3b;
+      }
+
+      .st2 {
+        font-size: 7px;
+      }
+
+      .st3 {
+        stroke: #8f5aa3;
+      }
+
+      .st8 {
+        font-size: 5.3px;
+      }
+
+      .st9, .st4 {
+        font-size: 8.8px;
+      }
+
+      .st22 {
+        fill: #fff4ed;
+        stroke-dasharray: 6 5;
+        stroke-width: 2.4px;
+      }
+
+      .st22, .st23, .st24 {
+        stroke: #b65f36;
+      }
+
+      .st25 {
+        fill: #3f7d57;
+      }
+
+      .st23 {
+        stroke-width: 2.2px;
+      }
+
+      .st23, .st24 {
+        fill: none;
+        stroke-dasharray: 5 5;
+      }
+
+      .st24 {
+        stroke-width: 2px;
+      }
+
+      .st20 {
+        fill: #fff8df;
+        stroke: #6f7f2a;
+        stroke-dasharray: 8 7;
+      }
+
+      .st26 {
+        fill: #1f7a8c;
+      }
+
+      .st27 {
+        fill: #c45a3b;
+      }
+
+      .st28 {
+        fill: #b65f36;
+      }
+
+      .st29 {
+        fill: #31708f;
+      }
+
+      .st16 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st30 {
+        fill: #4f5d95;
+      }
+
+      .st11 {
+        font-size: 8.4px;
+      }
+
+      .st12 {
+        fill: #263238;
+        font-size: 6.3px;
+      }
+
+      .st5 {
+        stroke: #1f7a8c;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1003.4" y1="0" x2="1003.4" y2=".4" gradientTransform="translate(-641516 331.0224) scale(640 875)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f8fbfc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="1003" y1="0" x2="1003" y2=".4" gradientTransform="translate(-841636 331.0224) scale(840 875)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f8fbfc"/>
+    </linearGradient>
+  </defs>
+  <rect class="st15" x="516.7" y="382.5" width="224.3" height="306.7" rx="2.8" ry="2.8"/>
+  <path class="st21" d="M519.5,382.5h218.7c1.9,0,2.8.9,2.8,2.8v20h-224.3v-20c0-1.9.9-2.8,2.8-2.8Z"/>
+  <g class="st10">
+    <text class="st4" transform="translate(570.2 396.1)"><tspan x="0" y="0">Data Across the AI Lifecycle</tspan></text>
+  </g>
+  <rect class="st19" x="558" y="414" width="126.2" height="24.5" rx="2.8" ry="2.8"/>
+  <g class="st10">
+    <text class="st7" transform="translate(587.5 429.4)"><tspan x="0" y="0">Raw / Source Data</tspan></text>
+  </g>
+  <path class="st18" d="M0,0"/>
+  <path class="st29" d="M626.7,438.2l-5.6,11.2-5.6-11.2h11.2Z"/>
+  <path class="st29" d="M621.1,449.4" marker-end="url(#arrow)"/>
+  <rect class="st19" x="558" y="450.8" width="126.2" height="24.5" rx="2.8" ry="2.8"/>
+  <g class="st10">
+    <text class="st7" transform="translate(578.2 466.2)"><tspan x="0" y="0">Curated / Labelled Data</tspan></text>
+  </g>
+  <path class="st18" d="M0,0"/>
+  <path class="st29" d="M626.7,475l-5.6,11.2-5.6-11.2h11.2Z"/>
+  <path class="st29" d="M621.1,486.2" marker-end="url(#arrow)"/>
+  <rect class="st19" x="558" y="487.6" width="126.2" height="24.5" rx="2.8" ry="2.8"/>
+  <g class="st10">
+    <text class="st7" transform="translate(596.7 503)"><tspan x="0" y="0">Training Data</tspan></text>
+  </g>
+  <path class="st18" d="M0,0"/>
+  <path class="st29" d="M626.7,511.8l-5.6,11.2-5.6-11.2h11.2Z"/>
+  <path class="st29" d="M621.1,523" marker-end="url(#arrow)"/>
+  <rect class="st19" x="558" y="524.4" width="126.2" height="24.5" rx="2.8" ry="2.8"/>
+  <g class="st10">
+    <text class="st7" transform="translate(593.5 539.8)"><tspan x="0" y="0">Validation Data</tspan></text>
+  </g>
+  <path class="st18" d="M0,0"/>
+  <path class="st29" d="M626.7,548.6l-5.6,11.2-5.6-11.2h11.2Z"/>
+  <path class="st29" d="M621.1,559.8" marker-end="url(#arrow)"/>
+  <rect class="st19" x="558" y="561.2" width="126.2" height="24.5" rx="2.8" ry="2.8"/>
+  <g class="st10">
+    <text class="st7" transform="translate(604 576.6)"><tspan x="0" y="0">Test Data</tspan></text>
+  </g>
+  <path class="st18" d="M0,0"/>
+  <path class="st29" d="M626.7,585.4l-5.6,11.2-5.6-11.2h11.2Z"/>
+  <path class="st29" d="M621.1,596.6" marker-end="url(#arrow)"/>
+  <rect class="st19" x="558" y="598" width="126.2" height="24.5" rx="2.8" ry="2.8"/>
+  <g class="st10">
+    <text class="st7" transform="translate(566.7 612.8)"><tspan x="0" y="0">Production / Operational Data</tspan></text>
+  </g>
+  <path class="st18" d="M0,0"/>
+  <path class="st29" d="M626.7,625.7l-5.6,11.2-5.6-11.2h11.2Z"/>
+  <path class="st29" d="M621.1,636.9" marker-end="url(#arrow)"/>
+  <rect class="st20" x="558" y="638.3" width="126.2" height="24.5" rx="2.8" ry="2.8"/>
+  <g class="st10">
+    <text class="st7" transform="translate(566.7 653.8)"><tspan x="0" y="0">Monitoring &amp; Retraining Loop</tspan></text>
+  </g>
+  <path class="st18" d="M0,0"/>
+  <path class="st14" d="M554.2,463.1" marker-end="url(#arrow-dash)"/>
+  <g>
+    <g class="st10">
+      <text class="st11" transform="translate(530.9 562.2) rotate(-90) scale(.9 1)"><tspan x="0" y="0">Iterative</tspan></text>
+    </g>
+    <g class="st10">
+      <text class="st11" transform="translate(538.8 568.4) rotate(-90) scale(.9 1)"><tspan x="0" y="0">revision path</tspan></text>
+    </g>
+  </g>
+  <rect class="st22" x="692.6" y="466.6" width="46" height="101.7" rx="3" ry="3"/>
+  <g>
+    <g class="st10">
+      <text class="st8" transform="translate(701.5 480.2)"><tspan x="0" y="0">Annotation</tspan></text>
+    </g>
+    <g class="st10">
+      <text class="st8" transform="translate(708.4 486.9)"><tspan x="0" y="0">Layer</tspan></text>
+    </g>
+  </g>
+  <g class="st10">
+    <text class="st12" transform="translate(703.1 503.4)"><tspan x="0" y="0">Labels &amp;</tspan></text>
+  </g>
+  <g class="st10">
+    <text class="st12" transform="translate(696.8 510)"><tspan x="0" y="0">Ground Truth</tspan></text>
+  </g>
+  <g class="st10">
+    <text class="st12" transform="translate(704.9 527.9)"><tspan x="0" y="0">support</tspan></text>
+  </g>
+  <g class="st10">
+    <text class="st12" transform="translate(700 534.6)"><tspan x="0" y="0">supervised</tspan></text>
+  </g>
+  <g class="st10">
+    <text class="st12" transform="translate(698 541.2)"><tspan x="0" y="0">learning and</tspan></text>
+  </g>
+  <g class="st10">
+    <text class="st12" transform="translate(697.3 547.9)"><tspan x="0" y="0">benchmarks.</tspan></text>
+  </g>
+  <path class="st23" d="M684.2,463.1h6.3M684.2,573.5h6.3M690.5,463.1v110.4"/>
+  <rect class="st16" x="755" y="382.5" width="294.4" height="306.7" rx="2.8" ry="2.8"/>
+  <path class="st30" d="M757.8,382.5h288.8c1.9,0,2.8.9,2.8,2.8v20h-294.4v-20c0-1.9.9-2.8,2.8-2.8Z"/>
+  <g class="st10">
+    <text class="st4" transform="translate(852.4 396.1)"><tspan x="0" y="0">Data Quality Viewpoints</tspan></text>
+  </g>
+  <rect class="st5" x="767.3" y="415.8" width="120.9" height="127.9" rx="2.8" ry="2.8"/>
+  <path class="st26" d="M770.1,415.8h115.3c1.9,0,2.8.9,2.8,2.8v16.5h-120.9v-16.5c0-1.9.9-2.8,2.8-2.8Z"/>
+  <g class="st10">
+    <text class="st2" transform="translate(812 427.7)"><tspan x="0" y="0">VALIDITY</tspan></text>
+  </g>
+  <circle class="st13" cx="781.3" cy="453.3" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(787.6 456.4)"><tspan x="0" y="0">Currentness</tspan></text>
+  </g>
+  <circle class="st13" cx="781.3" cy="478.2" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(787.6 481.3)"><tspan x="0" y="0">Availability &amp;</tspan></text>
+  </g>
+  <g class="st10">
+    <text class="st9" transform="translate(787.6 493.6)"><tspan x="0" y="0">Recoverability</tspan></text>
+  </g>
+  <g class="st10">
+    <text class="st6" transform="translate(787.6 505.8)"><tspan x="0" y="0">(System-Dependent</tspan></text>
+  </g>
+  <g class="st10">
+    <text class="st6" transform="translate(787.6 517.4)"><tspan x="0" y="0">Validity)</tspan></text>
+  </g>
+  <rect class="st1" x="914.5" y="415.8" width="120.9" height="127.9" rx="2.8" ry="2.8"/>
+  <path class="st27" d="M917.3,415.8h115.3c1.9,0,2.8.9,2.8,2.8v16.5h-120.9v-16.5c0-1.9.9-2.8,2.8-2.8Z"/>
+  <g class="st10">
+    <text class="st2" transform="translate(953.4 427.7)"><tspan x="0" y="0">RELIABILITY</tspan></text>
+  </g>
+  <circle class="st13" cx="928.5" cy="452.6" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(934.8 455.7)"><tspan x="0" y="0">Consistency</tspan></text>
+  </g>
+  <circle class="st13" cx="928.5" cy="468.3" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(934.8 471.5)"><tspan x="0" y="0">Accuracy</tspan></text>
+  </g>
+  <circle class="st13" cx="928.5" cy="484.1" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(934.8 487.3)"><tspan x="0" y="0">Precision</tspan></text>
+  </g>
+  <circle class="st13" cx="928.5" cy="499.9" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(934.8 503)"><tspan x="0" y="0">Credibility</tspan></text>
+  </g>
+  <circle class="st13" cx="928.5" cy="515.7" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(934.8 518.8)"><tspan x="0" y="0">Traceability</tspan></text>
+  </g>
+  <circle class="st13" cx="928.5" cy="531.4" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(934.8 534.6)"><tspan x="0" y="0">Compliance</tspan></text>
+  </g>
+  <rect class="st0" x="767.3" y="556" width="120.9" height="126.2" rx="2.8" ry="2.8"/>
+  <path class="st25" d="M770.1,556h115.3c1.9,0,2.8.9,2.8,2.8v16.5h-120.9v-16.5c0-1.9.9-2.8,2.8-2.8Z"/>
+  <g class="st10">
+    <text class="st2" transform="translate(812.2 567.9)"><tspan x="0" y="0">FIDELITY</tspan></text>
+  </g>
+  <circle class="st13" cx="781.3" cy="587.5" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(787.6 590.7)"><tspan x="0" y="0">Completeness</tspan></text>
+  </g>
+  <circle class="st13" cx="781.3" cy="601.5" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(787.6 604.7)"><tspan x="0" y="0">Representativeness</tspan></text>
+  </g>
+  <circle class="st13" cx="781.3" cy="615.6" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(787.6 618.7)"><tspan x="0" y="0">Balance</tspan></text>
+  </g>
+  <circle class="st13" cx="781.3" cy="629.6" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(787.6 632.7)"><tspan x="0" y="0">Diversity</tspan></text>
+  </g>
+  <circle class="st13" cx="781.3" cy="643.6" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(787.6 646.8)"><tspan x="0" y="0">Similarity</tspan></text>
+  </g>
+  <circle class="st13" cx="781.3" cy="657.6" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(787.6 660.8)"><tspan x="0" y="0">Relevance</tspan></text>
+  </g>
+  <circle class="st13" cx="781.3" cy="671.6" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(787.6 674.8)"><tspan x="0" y="0">Timeliness</tspan></text>
+  </g>
+  <rect class="st3" x="914.5" y="556" width="120.9" height="126.2" rx="2.8" ry="2.8"/>
+  <path class="st17" d="M917.3,556h115.3c1.9,0,2.8.9,2.8,2.8v16.5h-120.9v-16.5c0-1.9.9-2.8,2.8-2.8Z"/>
+  <g class="st10">
+    <text class="st2" transform="translate(944.5 567.9)"><tspan x="0" y="0">MAINTAINABILITY</tspan></text>
+  </g>
+  <circle class="st13" cx="928.5" cy="587.5" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(934.8 590.7)"><tspan x="0" y="0">Accessibility</tspan></text>
+  </g>
+  <circle class="st13" cx="928.5" cy="604.3" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(934.8 607.5)"><tspan x="0" y="0">Auditability</tspan></text>
+  </g>
+  <circle class="st13" cx="928.5" cy="621.2" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(934.8 624.3)"><tspan x="0" y="0">Understandability</tspan></text>
+  </g>
+  <circle class="st13" cx="928.5" cy="638" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(934.8 641.1)"><tspan x="0" y="0">Portability</tspan></text>
+  </g>
+  <circle class="st13" cx="928.5" cy="654.8" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(934.8 658)"><tspan x="0" y="0">Identifiability</tspan></text>
+  </g>
+  <circle class="st13" cx="928.5" cy="671.6" r="1.6"/>
+  <g class="st10">
+    <text class="st9" transform="translate(934.8 674.8)"><tspan x="0" y="0">Efficiency</tspan></text>
+  </g>
+  <g>
+    <polyline class="st24" points="553 650.6 544.6 650.6 544.6 463.1 553 463.1"/>
+    <polygon class="st28" points="552 647.1 558 650.6 552 654.1 552 647.1"/>
+    <polygon class="st28" points="552 466.6 558 463.1 552 459.6 552 466.6"/>
+  </g>
+</svg>
