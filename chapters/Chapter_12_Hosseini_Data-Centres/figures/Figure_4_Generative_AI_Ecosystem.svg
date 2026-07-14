@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1900" viewBox="0 0 1600 1900" role="img" aria-labelledby="figure-title figure-desc">
+  <title id="figure-title">The AI Physical-to-Digital Stack for Data Centres</title>
+  <desc id="figure-desc">A five-layer stack showing how physical sites and utilities, data centre facility systems, compute hardware, platforms and models, and applications together enable generative AI.</desc>
+
+  <defs>
+    <marker id="arrow-grey" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 1 1 L 17 9 L 1 17 Z" fill="#4B5563"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="30" markerHeight="30" refX="27" refY="15" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 1 1 L 29 15 L 1 29 Z" fill="#D96F32"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="1900" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="800" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#1F2933">The AI Physical-to-Digital Stack for Data Centres</text>
+  <text x="800" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-style="italic" fill="#4B5563">How data centre infrastructure enables generative AI applications</text>
+  <line x1="390" y1="205" x2="1210" y2="205" stroke="#D7DEE5" stroke-width="3"/>
+
+  <!-- Side arrows and labels -->
+  <line x1="112" y1="322" x2="112" y2="1518" stroke="#4B5563" stroke-width="4" marker-end="url(#arrow-grey)"/>
+  <text x="58" y="920" text-anchor="middle" transform="rotate(-90 58 920)" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1F2933">Energy, cooling, and physical constraints increase downward</text>
+
+  <line x1="1530" y1="1518" x2="1530" y2="322" stroke="#4B5563" stroke-width="4" marker-end="url(#arrow-grey)"/>
+  <text x="1580" y="920" text-anchor="middle" transform="rotate(-90 1580 920)" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1F2933">Abstraction and software complexity increase upward</text>
+
+  <!-- Layer 5 -->
+  <rect x="230" y="280" width="1140" height="220" rx="28" fill="#9AAFEA" stroke="#4B5563" stroke-width="4"/>
+  <g fill="none" stroke="#1F2933" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="285" y="335" width="150" height="105" rx="10"/>
+    <line x1="285" y1="368" x2="435" y2="368"/>
+    <circle cx="307" cy="351" r="4" fill="#1F2933" stroke="none"/>
+    <circle cx="326" cy="351" r="4" fill="#1F2933" stroke="none"/>
+    <circle cx="345" cy="351" r="4" fill="#1F2933" stroke="none"/>
+    <path d="M402 310 L413 338 L441 349 L413 360 L402 388 L391 360 L363 349 L391 338 Z"/>
+    <path d="M440 306 L445 318 L457 323 L445 328 L440 340 L435 328 L423 323 L435 318 Z" stroke-width="4"/>
+  </g>
+  <text x="500" y="335" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#1F2933">5) Applications</text>
+  <text x="500" y="380" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• Chat, copilots, and agents</text>
+  <text x="500" y="416" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• Enterprise automation</text>
+  <text x="500" y="452" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• BIM, digital twins, simulation</text>
+  <text x="500" y="488" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• End users and organisations</text>
+
+  <!-- Dependency arrow -->
+  <line x1="800" y1="540" x2="800" y2="508" stroke="#4B5563" stroke-width="4" marker-end="url(#arrow-grey)"/>
+
+  <!-- Layer 4 -->
+  <rect x="230" y="550" width="1140" height="220" rx="28" fill="#DCE6F6" stroke="#4B5563" stroke-width="4"/>
+  <g fill="none" stroke="#1F2933" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M292 674 C270 674 255 658 255 637 C255 616 271 600 292 600 C301 570 326 552 355 552 C388 552 416 575 421 608 C444 611 460 627 460 649 C460 671 443 688 421 688 L292 688 C278 688 268 682 261 674"/>
+    <circle cx="320" cy="633" r="10" fill="#DCE6F6"/>
+    <circle cx="365" cy="606" r="10" fill="#DCE6F6"/>
+    <circle cx="410" cy="633" r="10" fill="#DCE6F6"/>
+    <circle cx="365" cy="660" r="10" fill="#DCE6F6"/>
+    <circle cx="307" cy="695" r="10" fill="#DCE6F6"/>
+    <circle cx="423" cy="695" r="10" fill="#DCE6F6"/>
+    <line x1="329" y1="628" x2="356" y2="611"/>
+    <line x1="374" y1="611" x2="401" y2="628"/>
+    <line x1="410" y1="643" x2="374" y2="657"/>
+    <line x1="356" y1="657" x2="320" y2="643"/>
+    <line x1="365" y1="670" x2="365" y2="708"/>
+    <line x1="320" y1="643" x2="310" y2="685"/>
+    <line x1="410" y1="643" x2="420" y2="685"/>
+  </g>
+  <text x="500" y="605" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#1F2933">4) Platforms and Models</text>
+  <text x="500" y="650" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• Orchestration and scheduling</text>
+  <text x="500" y="686" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• Distributed training and inference</text>
+  <text x="500" y="722" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• Data pipelines and MLOps</text>
+  <text x="500" y="758" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• Foundation models and LLMs</text>
+
+  <!-- Dependency arrow -->
+  <line x1="800" y1="810" x2="800" y2="778" stroke="#4B5563" stroke-width="4" marker-end="url(#arrow-grey)"/>
+
+  <!-- Layer 3 -->
+  <rect x="230" y="820" width="1140" height="220" rx="28" fill="#E8EEF3" stroke="#4B5563" stroke-width="4"/>
+  <g fill="none" stroke="#1F2933" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="290" y="862" width="155" height="132" rx="8"/>
+    <rect x="305" y="878" width="125" height="28" rx="5"/>
+    <rect x="305" y="916" width="125" height="28" rx="5"/>
+    <rect x="305" y="954" width="125" height="28" rx="5"/>
+    <circle cx="324" cy="892" r="4" fill="#1F2933" stroke="none"/>
+    <circle cx="324" cy="930" r="4" fill="#1F2933" stroke="none"/>
+    <circle cx="324" cy="968" r="4" fill="#1F2933" stroke="none"/>
+    <line x1="390" y1="892" x2="414" y2="892"/>
+    <line x1="390" y1="930" x2="414" y2="930"/>
+    <line x1="390" y1="968" x2="414" y2="968"/>
+    <line x1="367" y1="994" x2="367" y2="1015"/>
+    <line x1="337" y1="1015" x2="397" y2="1015"/>
+  </g>
+  <text x="500" y="875" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#1F2933">3) Compute Hardware</text>
+  <text x="500" y="920" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• Racks and servers</text>
+  <text x="500" y="956" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• GPUs, TPUs, and AI chips</text>
+  <text x="500" y="992" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• Storage and high-speed networking</text>
+  <text x="500" y="1028" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• Liquid cooling for high-density racks</text>
+
+  <!-- Dependency arrow -->
+  <line x1="800" y1="1080" x2="800" y2="1048" stroke="#4B5563" stroke-width="4" marker-end="url(#arrow-grey)"/>
+
+  <!-- Layer 2 -->
+  <rect x="230" y="1090" width="1140" height="220" rx="28" fill="#F6C39B" stroke="#4B5563" stroke-width="4"/>
+  <g fill="none" stroke="#1F2933" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M275 1262 L275 1168 L335 1168 L335 1262 Z"/>
+    <path d="M335 1262 L335 1200 L390 1200 L390 1262 Z"/>
+    <path d="M390 1262 L390 1186 L438 1186 L438 1262 Z"/>
+    <path d="M401 1186 C410 1168 411 1146 405 1128 L423 1128 C417 1146 418 1168 427 1186"/>
+    <line x1="275" y1="1262" x2="450" y2="1262"/>
+    <line x1="290" y1="1186" x2="290" y2="1240"/>
+    <line x1="308" y1="1186" x2="308" y2="1240"/>
+    <line x1="326" y1="1186" x2="326" y2="1240"/>
+    <line x1="350" y1="1218" x2="350" y2="1240"/>
+    <line x1="373" y1="1218" x2="373" y2="1240"/>
+    <path d="M402 1114 C393 1103 409 1098 401 1087"/>
+    <path d="M417 1114 C408 1103 424 1098 416 1087"/>
+    <path d="M432 1114 C423 1103 439 1098 431 1087"/>
+  </g>
+  <text x="500" y="1145" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#1F2933">2) Data Centre Facility and Building Systems</text>
+  <text x="500" y="1190" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• UPS, switchgear, and redundancy</text>
+  <text x="500" y="1226" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• Cooling plant: chillers and towers</text>
+  <text x="500" y="1262" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• Backup generation and resilience</text>
+  <text x="500" y="1298" font-family="Arial, sans-serif" font-size="28" fill="#1F2933">• Safety, security, and DCIM</text>
+
+  <!-- Dependency arrow -->
+  <line x1="800" y1="1350" x2="800" y2="1318" stroke="#4B5563" stroke-width="4" marker-end="url(#arrow-grey)"/>
+
+  <!-- Layer 1 -->
+  <rect x="230" y="1360" width="1140" height="220" rx="28" fill="#E88955" stroke="#4B5563" stroke-width="4"/>
+  <g fill="none" stroke="#1F2933" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M307 1402 L278 1450 L307 1450 L292 1490 L343 1435 L315 1435 L333 1402 Z"/>
+    <path d="M397 1407 C397 1407 365 1443 365 1466 C365 1487 379 1501 397 1501 C415 1501 429 1487 429 1466 C429 1443 397 1407 397 1407 Z"/>
+    <path d="M284 1530 C302 1514 322 1514 340 1530 C322 1546 302 1546 284 1530 Z"/>
+    <line x1="260" y1="1530" x2="284" y2="1530"/>
+    <line x1="340" y1="1530" x2="362" y2="1530"/>
+    <path d="M388 1550 C389 1516 415 1498 451 1499 C451 1534 430 1555 397 1557"/>
+    <line x1="390" y1="1572" x2="420" y2="1528"/>
+  </g>
+  <text x="500" y="1413" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#1F2933">1) Physical Site and Utilities</text>
+  <text x="500" y="1457" font-family="Arial, sans-serif" font-size="27" fill="#1F2933">• Grid power, substations, renewables</text>
+  <text x="500" y="1491" font-family="Arial, sans-serif" font-size="27" fill="#1F2933">• Water supply for cooling</text>
+  <text x="500" y="1525" font-family="Arial, sans-serif" font-size="27" fill="#1F2933">• Fibre connectivity and backhaul</text>
+  <text x="500" y="1559" font-family="Arial, sans-serif" font-size="27" fill="#1F2933">• Land, planning, and permits</text>
+
+  <!-- Demand feedback -->
+  <path d="M1380 390 C1465 410 1480 650 1450 790 C1432 875 1408 925 1385 950" fill="none" stroke="#D96F32" stroke-width="9" stroke-linecap="round" marker-end="url(#arrow-orange)"/>
+  <text x="1473" y="660" text-anchor="middle" transform="rotate(90 1473 660)" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#B95623">Demand drives compute and facility expansion</text>
+
+  <!-- Cross-cutting concerns -->
+  <line x1="350" y1="1670" x2="1250" y2="1670" stroke="#D7DEE5" stroke-width="3"/>
+  <text x="800" y="1730" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-style="italic" fill="#1F2933">Cross-cutting concerns: Security • Sustainability • Observability</text>
+</svg>

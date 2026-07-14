@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="figure-title figure-desc">
+  <title id="figure-title">Rack Power Density and Cooling Technology Transition</title>
+  <desc id="figure-desc">A simplified educational diagram showing how increasing data-centre rack power density shifts cooling strategy from conventional air cooling to direct-to-chip and immersion cooling.</desc>
+
+  <defs>
+    <!-- Arrowhead definitions -->
+    <marker id="arrow-head" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#000F46"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#46C8F0"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#E05A47"/>
+    </marker>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+
+  <!-- ========================================== -->
+  <!--        CARD 1: CONVENTIONAL AIR (LEFT)     -->
+  <!-- ========================================== -->
+  <g id="card-1">
+    <!-- Card Background -->
+    <rect x="125" y="120" width="300" height="450" rx="12" ry="12" fill="#F7F9FA" stroke="#000F46" stroke-width="1.5"/>
+    <!-- Card Header -->
+    <path d="M 125 132 A 12 12 0 0 1 137 120 L 413 120 A 12 12 0 0 1 425 132 L 425 170 L 125 170 Z" fill="#000F46"/>
+    <text x="275" y="152" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5–10 kW / rack</text>
+    
+    <!-- Visual Representation: Standard Air-Cooled Rack -->
+    <g id="rack-air">
+      <!-- Rack Cabinet -->
+      <rect x="245" y="190" width="60" height="120" rx="3" ry="3" fill="#EAEAEA" stroke="#333333" stroke-width="2"/>
+      <!-- Server Slots -->
+      <line x1="250" y1="202" x2="300" y2="202" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="250" y1="214" x2="300" y2="214" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="250" y1="226" x2="300" y2="226" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="250" y1="238" x2="300" y2="238" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="250" y1="250" x2="300" y2="250" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="250" y1="262" x2="300" y2="262" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="250" y1="274" x2="300" y2="274" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="250" y1="286" x2="300" y2="286" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="250" y1="298" x2="300" y2="298" stroke="#7F8C8D" stroke-width="1.5"/>
+      <!-- Status Lights -->
+      <circle cx="254" cy="202" r="1.5" fill="#2ECC71"/>
+      <circle cx="254" cy="226" r="1.5" fill="#2ECC71"/>
+      <circle cx="254" cy="250" r="1.5" fill="#2ECC71"/>
+      <circle cx="254" cy="274" r="1.5" fill="#2ECC71"/>
+      <circle cx="254" cy="298" r="1.5" fill="#2ECC71"/>
+
+      <!-- Cool Air Inflow (Blue Arrows) -->
+      <line x1="175" y1="215" x2="235" y2="215" stroke="#46C8F0" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-blue)"/>
+      <line x1="175" y1="250" x2="235" y2="250" stroke="#46C8F0" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-blue)"/>
+      <line x1="175" y1="285" x2="235" y2="285" stroke="#46C8F0" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-blue)"/>
+
+      <!-- Hot Air Outflow (Red Arrows) -->
+      <line x1="315" y1="215" x2="365" y2="215" stroke="#E05A47" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-red)"/>
+      <line x1="315" y1="250" x2="365" y2="250" stroke="#E05A47" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-red)"/>
+      <line x1="315" y1="285" x2="365" y2="285" stroke="#E05A47" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-red)"/>
+    </g>
+
+    <!-- Content Text -->
+    <text x="275" y="360" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#000F46" text-anchor="middle">Conventional Air Cooling</text>
+    <text x="275" y="405" font-family="Arial, sans-serif" font-size="14" fill="#333333" text-anchor="middle">Standard hot/cold aisle</text>
+    <text x="275" y="425" font-family="Arial, sans-serif" font-size="14" fill="#333333" text-anchor="middle">containment is feasible for</text>
+    <text x="275" y="445" font-family="Arial, sans-serif" font-size="14" fill="#333333" text-anchor="middle">typical enterprise workloads.</text>
+  </g>
+
+  <!-- ========================================== -->
+  <!--        CARD 2: AIR STRESS (MIDDLE-LEFT)    -->
+  <!-- ========================================== -->
+  <g id="card-2">
+    <!-- Card Background -->
+    <rect x="475" y="120" width="300" height="450" rx="12" ry="12" fill="#F7F9FA" stroke="#000F46" stroke-width="1.5"/>
+    <!-- Card Header -->
+    <path d="M 475 132 A 12 12 0 0 1 487 120 L 763 120 A 12 12 0 0 1 775 132 L 775 170 L 475 170 Z" fill="#000F46"/>
+    <text x="625" y="152" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">20–25 kW / rack</text>
+
+    <!-- Visual Representation: Air Cooling Stress -->
+    <g id="rack-stress">
+      <!-- Rack Cabinet -->
+      <rect x="595" y="190" width="60" height="120" rx="3" ry="3" fill="#EAEAEA" stroke="#333333" stroke-width="2"/>
+      <!-- Server Slots -->
+      <line x1="600" y1="202" x2="650" y2="202" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="600" y1="214" x2="650" y2="214" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="600" y1="226" x2="650" y2="226" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="600" y1="238" x2="650" y2="238" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="600" y1="250" x2="650" y2="250" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="600" y1="262" x2="650" y2="262" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="600" y1="274" x2="650" y2="274" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="600" y1="286" x2="650" y2="286" stroke="#7F8C8D" stroke-width="1.5"/>
+      <line x1="600" y1="298" x2="650" y2="298" stroke="#7F8C8D" stroke-width="1.5"/>
+      <!-- Status Lights (Amber/Red warnings) -->
+      <circle cx="604" cy="202" r="1.5" fill="#E67E22"/>
+      <circle cx="604" cy="226" r="1.5" fill="#E74C3C"/>
+      <circle cx="604" cy="250" r="1.5" fill="#E67E22"/>
+      <circle cx="604" cy="274" r="1.5" fill="#E74C3C"/>
+      <circle cx="604" cy="298" r="1.5" fill="#E67E22"/>
+
+      <!-- Normal Air Flow (Weakened) -->
+      <line x1="535" y1="220" x2="585" y2="220" stroke="#46C8F0" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-blue)"/>
+      <line x1="535" y1="280" x2="585" y2="280" stroke="#46C8F0" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-blue)"/>
+
+      <!-- Recirculating Hot Air Loops -->
+      <path d="M 660 210 C 695 200 695 155 625 155 C 570 155 565 180 582 195" fill="none" stroke="#E05A47" stroke-width="2" stroke-dasharray="2,2" stroke-linecap="round" marker-end="url(#arrow-red)"/>
+      <path d="M 660 280 C 695 290 695 335 625 335 C 570 335 565 310 582 295" fill="none" stroke="#E05A47" stroke-width="2" stroke-dasharray="2,2" stroke-linecap="round" marker-end="url(#arrow-red)"/>
+
+      <!-- Heat Warning Indicator (Muted Dark Orange) -->
+      <path d="M 625 227 L 638 250 L 612 250 Z" fill="#E67E22" stroke="#333333" stroke-width="1"/>
+      <text x="625" y="247" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">!</text>
+    </g>
+
+    <!-- Content Text -->
+    <text x="625" y="360" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#000F46" text-anchor="middle">Air-Cooling Stress Zone</text>
+    <text x="625" y="405" font-family="Arial, sans-serif" font-size="14" fill="#333333" text-anchor="middle">Elevated risk of hot spots,</text>
+    <text x="625" y="425" font-family="Arial, sans-serif" font-size="14" fill="#333333" text-anchor="middle">recirculation, bypass airflow,</text>
+    <text x="625" y="445" font-family="Arial, sans-serif" font-size="14" fill="#333333" text-anchor="middle">and overall thermal stress.</text>
+  </g>
+
+  <!-- ========================================== -->
+  <!--      CARD 3: DIRECT-TO-CHIP (MIDDLE-RIGHT) -->
+  <!-- ========================================== -->
+  <g id="card-3">
+    <!-- Card Background -->
+    <rect x="825" y="120" width="300" height="450" rx="12" ry="12" fill="#F7F9FA" stroke="#000F46" stroke-width="1.5"/>
+    <!-- Card Header -->
+    <path d="M 825 132 A 12 12 0 0 1 837 120 L 1113 120 A 12 12 0 0 1 1125 132 L 1125 170 L 825 170 Z" fill="#000F46"/>
+    <text x="975" y="152" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">25–90 kW / rack</text>
+
+    <!-- Visual Representation: Direct-to-Chip Cooling -->
+    <g id="rack-direct">
+      <!-- Rack Cabinet -->
+      <rect x="945" y="190" width="60" height="120" rx="3" ry="3" fill="#EAEAEA" stroke="#333333" stroke-width="2"/>
+      
+      <!-- Coolant Pipe Manifolds -->
+      <!-- Supply Manifold (Blue) -->
+      <line x1="935" y1="180" x2="935" y2="300" stroke="#46C8F0" stroke-width="3" stroke-linecap="round"/>
+      <!-- Return Manifold (Red) -->
+      <line x1="1015" y1="180" x2="1015" y2="300" stroke="#E05A47" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- Server Slots with Cold Plates -->
+      <!-- Slot 1 -->
+      <rect x="950" y="200" width="50" height="18" fill="#FFFFFF" stroke="#7F8C8D" stroke-width="1"/>
+      <rect x="967" y="205" width="16" height="8" fill="#D35400" rx="1"/> <!-- Copper block -->
+      <line x1="935" y1="209" x2="967" y2="209" stroke="#46C8F0" stroke-width="1.5"/>
+      <line x1="983" y1="209" x2="1015" y2="209" stroke="#E05A47" stroke-width="1.5"/>
+
+      <!-- Slot 2 -->
+      <rect x="950" y="230" width="50" height="18" fill="#FFFFFF" stroke="#7F8C8D" stroke-width="1"/>
+      <rect x="967" y="235" width="16" height="8" fill="#D35400" rx="1"/> <!-- Copper block -->
+      <line x1="935" y1="239" x2="967" y2="239" stroke="#46C8F0" stroke-width="1.5"/>
+      <line x1="983" y1="239" x2="1015" y2="239" stroke="#E05A47" stroke-width="1.5"/>
+
+      <!-- Slot 3 -->
+      <rect x="950" y="260" width="50" height="18" fill="#FFFFFF" stroke="#7F8C8D" stroke-width="1"/>
+      <rect x="967" y="265" width="16" height="8" fill="#D35400" rx="1"/> <!-- Copper block -->
+      <line x1="935" y1="269" x2="967" y2="269" stroke="#46C8F0" stroke-width="1.5"/>
+      <line x1="983" y1="269" x2="1015" y2="269" stroke="#E05A47" stroke-width="1.5"/>
+
+      <!-- Flow direction arrows -->
+      <line x1="935" y1="315" x2="935" y2="305" stroke="#46C8F0" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-blue)"/>
+      <line x1="1015" y1="305" x2="1015" y2="315" stroke="#E05A47" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-red)"/>
+    </g>
+
+    <!-- Content Text -->
+    <text x="975" y="360" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#000F46" text-anchor="middle">Direct-to-Chip Cooling</text>
+    <text x="975" y="405" font-family="Arial, sans-serif" font-size="14" fill="#333333" text-anchor="middle">Pipes coolant directly to</text>
+    <text x="975" y="425" font-family="Arial, sans-serif" font-size="14" fill="#333333" text-anchor="middle">server cold plates. Requires leak</text>
+    <text x="975" y="445" font-family="Arial, sans-serif" font-size="14" fill="#333333" text-anchor="middle">controls and fluid distribution.</text>
+  </g>
+
+  <!-- ========================================== -->
+  <!--       CARD 4: IMMERSION COOLING (RIGHT)    -->
+  <!-- ========================================== -->
+  <g id="card-4">
+    <!-- Card Background -->
+    <rect x="1175" y="120" width="300" height="450" rx="12" ry="12" fill="#F7F9FA" stroke="#000F46" stroke-width="1.5"/>
+    <!-- Card Header -->
+    <path d="M 1175 132 A 12 12 0 0 1 1187 120 L 1463 120 A 12 12 0 0 1 1475 132 L 1475 170 L 1175 170 Z" fill="#000F46"/>
+    <text x="1325" y="152" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">50–100+ kW / rack</text>
+
+    <!-- Visual Representation: Immersion Tank -->
+    <g id="rack-immersion">
+      <!-- Immersion Tank Container -->
+      <rect x="1265" y="195" width="120" height="110" rx="6" ry="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+      
+      <!-- Liquid Fill (Dielectric Fluid) -->
+      <rect x="1268" y="215" width="114" height="87" fill="#46C8F0" opacity="0.25" rx="3"/>
+      <!-- Liquid Surface line -->
+      <line x1="1268" y1="215" x2="1382" y2="215" stroke="#46C8F0" stroke-width="2"/>
+
+      <!-- Submerged Servers (Vertical Blades) -->
+      <rect x="1278" y="222" width="10" height="65" fill="#95A5A6" stroke="#555555" stroke-width="1" rx="1"/>
+      <rect x="1294" y="222" width="10" height="65" fill="#95A5A6" stroke="#555555" stroke-width="1" rx="1"/>
+      <rect x="1310" y="222" width="10" height="65" fill="#95A5A6" stroke="#555555" stroke-width="1" rx="1"/>
+      <rect x="1326" y="222" width="10" height="65" fill="#95A5A6" stroke="#555555" stroke-width="1" rx="1"/>
+      <rect x="1342" y="222" width="10" height="65" fill="#95A5A6" stroke="#555555" stroke-width="1" rx="1"/>
+      <rect x="1358" y="222" width="10" height="65" fill="#95A5A6" stroke="#555555" stroke-width="1" rx="1"/>
+
+      <!-- Status Indicators -->
+      <circle cx="1283" cy="227" r="1.5" fill="#2ECC71"/>
+      <circle cx="1299" cy="227" r="1.5" fill="#2ECC71"/>
+      <circle cx="1315" cy="227" r="1.5" fill="#2ECC71"/>
+      <circle cx="1331" cy="227" r="1.5" fill="#2ECC71"/>
+      <circle cx="1347" cy="227" r="1.5" fill="#2ECC71"/>
+      <circle cx="1363" cy="227" r="1.5" fill="#2ECC71"/>
+
+      <!-- Heat Exchange Cycle -->
+      <!-- Hot Liquid Out -->
+      <path d="M 1385 230 L 1415 230 L 1415 245" fill="none" stroke="#E05A47" stroke-width="2"/>
+      <!-- Heat Exchanger / CDU pump -->
+      <circle cx="1415" cy="255" r="10" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+      <path d="M 1412 255 L 1418 255 M 1415 252 L 1415 258" stroke="#333333" stroke-width="1.5"/>
+      <!-- Cool Liquid In -->
+      <path d="M 1415 265 L 1415 280 L 1385 280" fill="none" stroke="#46C8F0" stroke-width="2"/>
+
+      <line x1="1415" y1="235" x2="1415" y2="240" stroke="#E05A47" stroke-width="1" marker-end="url(#arrow-red)"/>
+      <line x1="1415" y1="275" x2="1415" y2="270" stroke="#46C8F0" stroke-width="1" marker-end="url(#arrow-blue)"/>
+    </g>
+
+    <!-- Content Text -->
+    <text x="1325" y="360" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#000F46" text-anchor="middle">Immersion Cooling</text>
+    <text x="1325" y="405" font-family="Arial, sans-serif" font-size="14" fill="#333333" text-anchor="middle">Servers fully submerged in</text>
+    <text x="1325" y="425" font-family="Arial, sans-serif" font-size="14" fill="#333333" text-anchor="middle">dielectric fluid. Significant spatial</text>
+    <text x="1325" y="445" font-family="Arial, sans-serif" font-size="14" fill="#333333" text-anchor="middle">and structural load impacts.</text>
+  </g>
+
+  <!-- ========================================== -->
+  <!--             HORIZONTAL AXIS                -->
+  <!-- ========================================== -->
+  <g id="axis-group">
+    <!-- Horizontal Axis Line -->
+    <line x1="125" y1="640" x2="1475" y2="640" stroke="#000F46" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow-head)"/>
+    
+    <!-- Ticks & Under-Axis Indicators -->
+    <line x1="275" y1="635" x2="275" y2="645" stroke="#000F46" stroke-width="2"/>
+    <text x="275" y="615" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#000F46" text-anchor="middle">5–10 kW/rack</text>
+
+    <line x1="625" y1="635" x2="625" y2="645" stroke="#000F46" stroke-width="2"/>
+    <text x="625" y="615" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#000F46" text-anchor="middle">20–25 kW/rack</text>
+
+    <line x1="975" y1="635" x2="975" y2="645" stroke="#000F46" stroke-width="2"/>
+    <text x="975" y="615" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#000F46" text-anchor="middle">25–90 kW/rack</text>
+
+    <line x1="1325" y1="635" x2="1325" y2="645" stroke="#000F46" stroke-width="2"/>
+    <text x="1325" y="615" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#000F46" text-anchor="middle">50–100+ kW/rack</text>
+
+    <!-- Axis Label -->
+    <text x="800" y="695" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000F46" text-anchor="middle">Rack IT Power Density (kW per rack)</text>
+  </g>
+
+  <!-- ========================================== -->
+  <!--               BOTTOM NOTE                  -->
+  <!-- ========================================== -->
+  <text x="800" y="770" font-family="Arial, sans-serif" font-size="13" fill="#666666" text-anchor="middle">Note: Ranges are indicative. Actual cooling limits vary based on room containment, server configuration, external climate, redundancy, and operational risk tolerance.</text>
+</svg>

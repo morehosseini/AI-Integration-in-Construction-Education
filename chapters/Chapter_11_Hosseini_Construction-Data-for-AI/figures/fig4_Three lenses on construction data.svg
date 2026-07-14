@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="130 80 752 720" width="752" height="720" role="img" aria-label="Concentric three-ring diagram: a Taxonomy core, a Lifecycle Stage middle ring, and a Project Phase outer ring.">
+  
+  <defs>
+    <marker id="arrowIn" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0.5 0.5 L8 4.5 L0.5 8.5 Z" fill="#0F4761"></path>
+    </marker>
+    <path id="outerHeaderArc" d="M182 440 A308 308 0 0 1 798 440" fill="none"></path>
+    <path id="midHeaderArc" d="M275 440 A215 215 0 0 1 705 440" fill="none"></path>
+    <path id="outerValuesArc" d="M202 440 A288 288 0 0 0 778 440" fill="none"></path>
+    <path id="midValuesArc" d="M300 440 A190 190 0 0 0 680 440" fill="none"></path>
+  </defs>
+
+  <rect x="130" y="80" width="752" height="720" fill="#ffffff"></rect>
+
+  <circle cx="490" cy="440" r="346" fill="#D6E4EF" stroke="#0F4761" stroke-width="1.5"></circle>
+  <circle cx="490" cy="440" r="252" fill="#9DC3DE" stroke="#0F4761" stroke-width="1.5"></circle>
+  <circle cx="490" cy="440" r="158" fill="#0F4761" stroke="#0F4761" stroke-width="1.5"></circle>
+
+  <line x1="864" y1="432" x2="658" y2="432" stroke="#0F4761" stroke-width="1.4" marker-end="url(#arrowIn)"></line>
+  <text class="lensLabel" x="762" y="424" text-anchor="middle">same data, three views</text>
+
+  <text text-anchor="middle">
+    <textPath xlink:href="#outerHeaderArc" startOffset="50%">
+      <tspan class="ringHeader lg">PROJECT PHASE</tspan><tspan class="subLabel lg">  ·  where it comes from</tspan>
+    </textPath>
+  </text>
+  <text text-anchor="middle">
+    <textPath xlink:href="#outerValuesArc" startOffset="50%">
+      <tspan class="ringValues outer">Inception  ·  Design  ·  Procurement  ·  Construction  ·  Handover  ·  Operations  ·  Decommissioning</tspan>
+    </textPath>
+  </text>
+
+  <text text-anchor="middle">
+    <textPath xlink:href="#midHeaderArc" startOffset="50%">
+      <tspan class="ringHeader lg">LIFECYCLE STAGE</tspan><tspan class="subLabel lg">  ·  how it is handled</tspan>
+    </textPath>
+  </text>
+  <text text-anchor="middle">
+    <textPath xlink:href="#midValuesArc" startOffset="50%">
+      <tspan class="ringValues mid">Acquisition  →  Preparation  →  Provisioning  →  Decommissioning</tspan>
+    </textPath>
+  </text>
+
+  <g text-anchor="middle">
+    <text class="coreHeader" x="490" y="384">TAXONOMY</text>
+    <text class="coreSub" x="490" y="404">what it is</text>
+    <text class="groupLabel" x="490" y="433">STRUCTURE</text>
+    <text class="coreValues" x="490" y="450">structured · semi-structured · unstructured</text>
+    <text class="groupLabel" x="490" y="478">MODALITY</text>
+    <text class="coreValues" x="490" y="495">text · image · spatial · time-series</text>
+  </g>
+</svg>
