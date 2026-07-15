@@ -3,14 +3,16 @@
 **Authors:** Katia Gaspar, Núria Forcada
 **Status:** Accepted; with copy editor
 
-This chapter is part of the forthcoming book *AI Integration in AEC Education* (Routledge/Taylor & Francis, ed. Dr M. Reza Hosseini). Supplementary material (figures, code, datasets, appendices) will be added here once the chapter is accepted.
+**Part II:** Teaching, Curriculum, Professional Formation
 
-## For the chapter authors
+## About this chapter
 
-When your chapter is ready, please add your material to the relevant subfolder:
-- Manuscript text or extracts → `text/`
-- Figures/images → `figures/`
-- Data/spreadsheets → `datasets/`
-- Code/notebooks → `code/`
+[Chapter summary to be added]
 
-See the repository [CONTRIBUTING.md](../../CONTRIBUTING.md) for naming conventions and submission steps.
+## Contents of this folder
+
+No supplementary material has been added yet. Once available, figures, appendices, datasets, or code will be organised into the relevant subfolder — see [CONTRIBUTING.md](../../CONTRIBUTING.md) for naming conventions and submission steps.
+
+## Citation
+
+Katia Gaspar, Núria Forcada (2026). AI in Construction: Identifying Competencies and Analysing Teaching Methods. In M. R. Hosseini (Ed.), *AI Integration in AEC Education*. Routledge/Taylor & Francis.
