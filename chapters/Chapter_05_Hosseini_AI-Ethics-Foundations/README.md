@@ -1,6 +1,6 @@
 # Chapter 5 — Beyond the Algorithm: Your Role in Ethical AI Deployment
 
-**Authors:** M. Reza Hosseini, Abdolmajid "Mazi" Erfani, Fahimeh Abedi, Deniz Besiktepe, Heng Li, Miroslaw J. Skibniewski
+**Authors:** M. Reza Hosseini, Abdolmajid Erfani, Fahimeh Abedi, Deniz Besiktepe, Heng Li, Miroslaw J. Skibniewski
 **Status:** Forthcoming — chapter in progress, not yet finalised
 
 This chapter is part of the forthcoming book *AI Integration in AEC Education* (Routledge/Taylor & Francis, ed. Dr M. Reza Hosseini). Supplementary material (figures, code, datasets, appendices) will be added here once the chapter is accepted.
