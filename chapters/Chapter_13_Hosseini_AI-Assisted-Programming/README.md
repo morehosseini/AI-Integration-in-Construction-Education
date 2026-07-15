@@ -32,7 +32,7 @@ M. Reza Hosseini, Xiang Xie, Manuel Herrera, Mohamad Kassem (2026). AI-Assisted 
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/>
   <img src="https://img.shields.io/badge/AI_Assisted-Human_in_the_Loop-00B4D8?style=for-the-badge" alt="Human in the Loop"/>
-  <img src="https://img.shields.io/badge/License-GPL--3.0-green?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License"/>
 </p>
 
 <p align="center">
@@ -336,5 +336,5 @@ Choose the path that matches your goals:
 ---
 
 <p align="center">
-  <em>Part of</em> <a href="../../../"><strong>AI Integration in AEC Education</strong></a> · <em>Section 2: Teaching with AI</em>
+  <em>Part of</em> <a href="../../../"><strong>AI Integration in AEC Education</strong></a> · <em>Part III: Data, Infrastructure, Applied AI Capabilities</em>
 </p>
