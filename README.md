@@ -41,5 +41,10 @@ All resources are organized by chapter in the `/chapters` directory. See [REPOSI
 ## 🤝 Contributing
 If you are an author looking to upload your materials, please read [CONTRIBUTING.md](CONTRIBUTING.md) for submission instructions.
 
+## 📄 Licensing
+
+Chapter text, figures, and appendices in this repository are licensed under [CC BY-NC 4.0](LICENSE) (Attribution-NonCommercial 4.0 International).
+Code in each chapter's `code/` folder is separately licensed under the MIT License, see the `LICENSE` file within that folder (for example [chapters/Chapter_13_Hosseini_AI-Assisted-Programming/code/LICENSE](chapters/Chapter_13_Hosseini_AI-Assisted-Programming/code/LICENSE)).
+
 ---
 *Published by Routledge/Taylor & Francis | Edited by Dr. M. Reza Hosseini*
