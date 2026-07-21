@@ -1,4 +1,4 @@
-# Chapter 16 — Operationalising AI Ethics in Construction: Principles, Governance, and Tools
+# Chapter 15 — Operationalising AI Ethics in Construction: Principles, Governance, and Tools
 
 **Authors:** M. Reza Hosseini, Abdolmajid Erfani, Fahimeh Abedi, Deniz Besiktepe, Heng Li, Miroslaw J. Skibniewski
 **Status:** Accepted; queued for copy editor

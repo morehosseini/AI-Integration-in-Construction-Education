@@ -42,6 +42,12 @@ We recommend the following workflow for this project:
 
 ---
 
+## 📌 Note on Chapter Structure
+
+On 21-Jul-2026, the book structure was updated from 16 to 15 chapters. Former Chapter 10 ("The Automation of Thinking? AI and the Future of Professional Judgement in Built Environment Education") was withdrawn due to content overlap with Chapter 4 ("When Technical Outputs No Longer Demonstrate Competence: A Capability Framework for AI-Enabled Built Environment Education") and archived. Former chapters 11–16 were renumbered to 10–15 accordingly.
+
+---
+
 ## 🛑 Important Notes
 * **Do not upload sensitive data** (student IDs, private emails).
 * **Large Files:** If your dataset is >100MB, please contact the Editor (Dr. Hosseini) before uploading.
@@ -49,3 +55,4 @@ We recommend the following workflow for this project:
 
 ---
 *Questions? Contact Dr. M. Reza Hosseini.*
+

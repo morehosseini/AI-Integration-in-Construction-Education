@@ -1,4 +1,4 @@
-# Chapter 14 — Digital Twins as Pedagogical Tools for Construction 4.0
+# Chapter 13 — Digital Twins as Pedagogical Tools for Construction 4.0
 
 **Authors:** Jenn McArthur
 **Status:** Accepted; with copy editor

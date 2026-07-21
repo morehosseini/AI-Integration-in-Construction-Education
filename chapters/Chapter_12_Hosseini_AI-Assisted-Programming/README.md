@@ -1,4 +1,4 @@
-# Chapter 13 — AI-Assisted Programming in Construction Education
+# Chapter 12 — AI-Assisted Programming in Construction Education
 
 **Authors:** M. Reza Hosseini, Xiang Xie, Manuel Herrera, Mohamad Kassem
 **Status:** Accepted; with copy editor

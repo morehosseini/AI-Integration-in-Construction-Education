@@ -1,4 +1,4 @@
-# Chapter 15 — Agentic AI in Construction: Frameworks, Use Cases, and Practical Governance
+# Chapter 14 — Agentic AI in Construction: Frameworks, Use Cases, and Practical Governance
 
 **Authors:** M. Reza Hosseini, Mohamad Kassem, Ruoxin Xiong, Bree Trevena
 **Status:** Accepted; queued for copy editor

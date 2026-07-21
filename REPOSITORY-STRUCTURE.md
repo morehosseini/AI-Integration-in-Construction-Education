@@ -19,7 +19,7 @@ AI-Integration-in-Construction-Education/
 └── chapters/                           # Chapter materials
     ├── Chapter_01_Tummalapudi_AI-Simple-Terms/
     ├── Chapter_02_Cheng_AI-Literacy/
-    └── ... (16 chapters total)
+    └── ... (15 chapters total)
 ```
 
 ## Inside Each Chapter Folder

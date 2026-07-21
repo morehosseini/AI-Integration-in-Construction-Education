@@ -1,4 +1,4 @@
-# Chapter 11 — The Digital Blueprint: Structuring Heterogeneous Construction Data for Artificial Intelligence
+# Chapter 10 — The Digital Blueprint: Structuring Heterogeneous Construction Data for Artificial Intelligence
 
 **Authors:** M. Reza Hosseini, Ruoxin Xiong, Amir Soroush, Tim Mumford
 **Status:** Accepted; queued for copy editor

@@ -1,4 +1,4 @@
-# Chapter 12 — Data Centres for the AI Era: A Construction Manager's Guide
+# Chapter 11 — Data Centres for the AI Era: A Construction Manager's Guide
 
 **Authors:** M. Reza Hosseini, Ania Khodabakhshian, Brooks H. Smith, Abdolmajid Erfani, Manideep Tummalapudi
 **Status:** Accepted
