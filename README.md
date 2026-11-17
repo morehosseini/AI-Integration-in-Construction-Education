@@ -1,5 +1,3 @@
-![AI Integration in AEC Education Banner](docs/graphics/repository_banner.png)
-
 # AI Integration in AEC Education
 ### Frameworks, Tools, and Pedagogical Applications
 
