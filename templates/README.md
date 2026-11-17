@@ -1,6 +1,1 @@
-# Templates
-
-Content for Templates goes here.
-
----
-*Part of the AI Integration in AEC Education Repository*
+`CHAPTER_README_TEMPLATE.md` is the layout used for every chapter folder's `README.md`.
