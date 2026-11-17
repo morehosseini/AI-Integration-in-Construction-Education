@@ -1,23 +1,30 @@
 # Chapter 12 — AI-Assisted Programming in Construction Education
 
-**Authors:** M. Reza Hosseini, Xiang Xie, Manuel Herrera, Mohamad Kassem
-**Status:** Accepted; with copy editor
-**Part III:** Data, Infrastructure, Applied AI Capabilities
+**Authors:** M. Reza Hosseini, Xiang Xie, Manuel Herrera, Mohamad Kassem  
+**Part:** Part III: Data, Infrastructure and Applied AI Capabilities  
+**Status:** Manuscript delivered to the publisher, November 2026; in production
 
 ## About this chapter
 
-[Chapter summary to be added]
+Construction professionals often need digital tools tailored to their projects. This chapter shows how they can use artificial intelligence (AI) to help build those tools. Practitioners define the problem, guide the AI assistant, review its code and validate the results before using them in a project decision.
 
-## Contents of this folder
+The chapter distinguishes AI-assisted programming from low-code, no-code and autonomous agents. A worked example analyses construction cost data in Python. A four-stage workflow informed by Design Science Research (DSR) shows how to specify, design, plan and evaluate more complex applications. The Chapter 12 companion repository provides a sample data set, the cost-analysis script, a construction planning prototype and its development notes for use in teaching.
 
-- `figures/` — 9 figures
-- `code/` — 3 code sub-projects
-- `assets/` — README-embedded images
+## Materials in this folder
+
+- `code/cost-analysis/` — the worked cost-analysis exercise: Python script, sample cost data and its own README
+- `code/construction-planning-app/` — the construction planning prototype: Streamlit app, calculation engines and data libraries
+- `code/development-history/` — notes on how the prototype was developed
+- `code/LICENSE` — MIT licence for the Chapter 12 code
+- `assets/` — images used on this page, including earlier versions of the chapter's figures
 
 ## Citation
 
-M. Reza Hosseini, Xiang Xie, Manuel Herrera, Mohamad Kassem (2026). AI-Assisted Programming in Construction Education. In M. R. Hosseini (Ed.), *AI Integration in AEC Education*. Routledge/Taylor & Francis.
+M. Reza Hosseini, Xiang Xie, Manuel Herrera, Mohamad Kassem (forthcoming). AI-Assisted Programming in Construction Education. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
 
+## Licence
+
+Content: CC BY-NC 4.0 (repository [LICENSE](../../LICENSE)). Code: MIT where a `code/LICENSE` is present.
 
 ---
 
@@ -326,15 +333,15 @@ Choose the path that matches your goals:
 @incollection{hosseini2026ai,
   author    = {Hosseini, M. Reza and Xie, Xiang and Herrera, Manuel and Kassem, Mohamad},
   title     = {AI-Assisted Programming in Construction Education},
-  booktitle = {AI Integration in Construction Education: Methods and Resources},
-  editor    = {Hosseini, M. Reza},
-  publisher = {Routledge/Taylor \& Francis},
-  year      = {2026}
+  booktitle = {AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications},
+  editor    = {Hosseini, M. Reza and Kassem, Mohamad and Dang, Hongtao and Skibniewski, Miroslaw J. and Li, Heng},
+  publisher = {CRC Press},
+  note      = {Forthcoming}
 }
 ```
 
 ---
 
 <p align="center">
-  <em>Part of</em> <a href="../../../"><strong>AI Integration in AEC Education</strong></a> · <em>Part III: Data, Infrastructure, Applied AI Capabilities</em>
+  <em>Part of</em> <a href="../../../"><strong>AI Integration in AEC Education</strong></a> · <em>Part III: Data, Infrastructure and Applied AI Capabilities</em>
 </p>
