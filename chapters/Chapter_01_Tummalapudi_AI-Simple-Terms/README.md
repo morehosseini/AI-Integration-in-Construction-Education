@@ -14,7 +14,7 @@ This chapter introduces the fundamental concepts of artificial intelligence (AI)
 
 ## Citation
 
-Manideep Tummalapudi, M. Reza Hosseini, Wei Wu, Brad Hyatt (forthcoming). Artificial Intelligence (AI) in Simple Terms. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+Manideep Tummalapudi, M. Reza Hosseini, Wei Wu, Brad Hyatt (forthcoming). Artificial Intelligence (AI) in Simple Terms. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 

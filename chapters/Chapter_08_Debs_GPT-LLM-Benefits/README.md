@@ -14,7 +14,7 @@ No companion files have been added to this folder yet. See [CONTRIBUTING.md](../
 
 ## Citation
 
-Luciana Debs, Deniz Besiktepe (forthcoming). Guidelines and Benefits of GPT/LLM in Construction Management Education. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+Luciana Debs, Deniz Besiktepe (forthcoming). Guidelines and Benefits of GPT/LLM in Construction Management Education. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 

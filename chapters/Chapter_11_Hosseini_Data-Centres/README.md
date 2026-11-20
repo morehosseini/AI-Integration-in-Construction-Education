@@ -15,7 +15,7 @@ The explosive growth of artificial intelligence (AI) has transformed data centre
 
 ## Citation
 
-M. Reza Hosseini, Ania Khodabakhshian, Brooks H. Smith, Abdolmajid Erfani, Manideep Tummalapudi (forthcoming). Data Centres for the AI Era: A Construction Manager’s Guide. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+M. Reza Hosseini, Ania Khodabakhshian, Brooks H. Smith, Abdolmajid Erfani, Manideep Tummalapudi (forthcoming). Data Centres for the AI Era: A Construction Manager’s Guide. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 

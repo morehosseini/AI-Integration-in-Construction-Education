@@ -15,7 +15,7 @@ This chapter provides a practical framework for operationalising artificial inte
 
 ## Citation
 
-M. Reza Hosseini, Abdolmajid Erfani, Fahimeh Abedi, Deniz Besiktepe, Heng Li, Miroslaw J. Skibniewski (forthcoming). Operationalising AI Ethics in Construction: Principles, Governance and Tools. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+M. Reza Hosseini, Abdolmajid Erfani, Fahimeh Abedi, Deniz Besiktepe, Heng Li, Miroslaw J. Skibniewski (forthcoming). Operationalising AI Ethics in Construction: Principles, Governance and Tools. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 

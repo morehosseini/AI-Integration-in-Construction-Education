@@ -14,7 +14,7 @@ This chapter establishes foundational knowledge for responsibly implementing art
 
 ## Citation
 
-M. Reza Hosseini, Abdolmajid Erfani, Fahimeh Abedi, Deniz Besiktepe, Heng Li, Miroslaw J. Skibniewski (forthcoming). Beyond the Algorithm: Understanding Your Role in Responsible AI Deployment in Construction. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+M. Reza Hosseini, Abdolmajid Erfani, Fahimeh Abedi, Deniz Besiktepe, Heng Li, Miroslaw J. Skibniewski (forthcoming). Beyond the Algorithm: Understanding Your Role in Responsible AI Deployment in Construction. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 

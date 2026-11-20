@@ -20,7 +20,7 @@ The chapter distinguishes AI-assisted programming from low-code, no-code and aut
 
 ## Citation
 
-M. Reza Hosseini, Xiang Xie, Manuel Herrera, Mohamad Kassem (forthcoming). AI-Assisted Programming in Construction Education. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+M. Reza Hosseini, Xiang Xie, Manuel Herrera, Mohamad Kassem (forthcoming). AI-Assisted Programming in Construction Education. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 
@@ -335,7 +335,7 @@ Choose the path that matches your goals:
   title     = {AI-Assisted Programming in Construction Education},
   booktitle = {AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications},
   editor    = {Hosseini, M. Reza and Kassem, Mohamad and Dang, Hongtao and Skibniewski, Miroslaw J. and Li, Heng},
-  publisher = {CRC Press},
+  publisher = {Routledge},
   note      = {Forthcoming}
 }
 ```

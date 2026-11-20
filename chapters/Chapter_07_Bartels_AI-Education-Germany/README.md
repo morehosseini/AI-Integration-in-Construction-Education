@@ -14,7 +14,7 @@ Artificial intelligence (AI) is increasingly shaping architecture, engineering a
 
 ## Citation
 
-Niels Bartels, Tobias Maile, Reinhard Wimmer (forthcoming). Embedding AI in Existing and New Curricula: A Survey-Based Study for AEC Education in Germany. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+Niels Bartels, Tobias Maile, Reinhard Wimmer (forthcoming). Embedding AI in Existing and New Curricula: A Survey-Based Study for AEC Education in Germany. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 

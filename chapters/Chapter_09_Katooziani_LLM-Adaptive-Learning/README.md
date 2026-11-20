@@ -14,7 +14,7 @@ This chapter explores how Large Language Models (LLMs) can bring personalised le
 
 ## Citation
 
-Ali Katooziani, Masoud Gheisari, Idris Jeelani (forthcoming). Large Language Models (LLMs) for Adaptive and Personalised Learning in Construction Education. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+Ali Katooziani, Masoud Gheisari, Idris Jeelani (forthcoming). Large Language Models (LLMs) for Adaptive and Personalised Learning in Construction Education. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 

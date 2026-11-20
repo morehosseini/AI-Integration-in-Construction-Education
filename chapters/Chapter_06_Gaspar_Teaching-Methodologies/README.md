@@ -14,7 +14,7 @@ No companion files have been added to this folder yet. See [CONTRIBUTING.md](../
 
 ## Citation
 
-Kàtia Gaspar, Núria Forcada (forthcoming). AI in Construction: Identifying Competencies and Analysing Teaching Methods. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+Kàtia Gaspar, Núria Forcada (forthcoming). AI in Construction: Identifying Competencies and Analysing Teaching Methods. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 

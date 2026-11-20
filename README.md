@@ -1,7 +1,7 @@
 # AI Integration in AEC Education
 ### Frameworks, Tools, and Pedagogical Applications
 
-Companion repository and website for the book **AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications** (CRC Press / Taylor & Francis), edited by M. Reza Hosseini, Mohamad Kassem, Hongtao Dang, Miroslaw J. Skibniewski and Heng Li. This repository hosts companion material (appendices, code, notebooks and figure files) for the 15 chapters.
+Companion repository and website for the book **AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications** (Routledge / Taylor & Francis), edited by M. Reza Hosseini, Mohamad Kassem, Hongtao Dang, Miroslaw J. Skibniewski and Heng Li. This repository hosts companion material (appendices, code, notebooks and figure files) for the 15 chapters.
 
 **Book status:** Manuscript delivered to the publisher, November 2026; in production.
 
@@ -48,4 +48,4 @@ Chapter text, figures, and appendices in this repository are licensed under [CC 
 Code in each chapter's `code/` folder is separately licensed under the MIT License, see the `LICENSE` file within that folder (for example [chapters/Chapter_12_Hosseini_AI-Assisted-Programming/code/LICENSE](chapters/Chapter_12_Hosseini_AI-Assisted-Programming/code/LICENSE)).
 
 ---
-*AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications · CRC Press / Taylor & Francis · Edited by M. Reza Hosseini, Mohamad Kassem, Hongtao Dang, Miroslaw J. Skibniewski and Heng Li*
+*AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications · Routledge / Taylor & Francis · Edited by M. Reza Hosseini, Mohamad Kassem, Hongtao Dang, Miroslaw J. Skibniewski and Heng Li*

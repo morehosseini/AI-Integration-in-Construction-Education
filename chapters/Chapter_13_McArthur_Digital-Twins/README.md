@@ -14,7 +14,7 @@ Digital twins (DTs) play an increasing role in the architecture, engineering and
 
 ## Citation
 
-Jenn McArthur (forthcoming). Digital Twins as Pedagogical Tools for Construction 4.0. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+Jenn McArthur (forthcoming). Digital Twins as Pedagogical Tools for Construction 4.0. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 

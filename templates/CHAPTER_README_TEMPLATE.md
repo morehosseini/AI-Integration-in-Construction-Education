@@ -11,7 +11,7 @@
 - `code/…` — <what it is; licence: MIT, see code/LICENSE>
 
 ## Citation
-<Authors> (forthcoming). <Title>. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+<Authors> (forthcoming). <Title>. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 Content: CC BY-NC 4.0 (repository LICENSE). Code: MIT where a code/LICENSE is present.

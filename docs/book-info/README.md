@@ -1,7 +1,7 @@
 # Book information
 
 **Title:** AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications  
-**Publisher:** CRC Press / Taylor & Francis  
+**Publisher:** Routledge / Taylor & Francis  
 **Editors:** M. Reza Hosseini, Mohamad Kassem, Hongtao Dang, Miroslaw J. Skibniewski, Heng Li  
 **Status:** Manuscript delivered to the publisher, November 2026; in production
 
