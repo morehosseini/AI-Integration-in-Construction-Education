@@ -16,7 +16,7 @@ This chapter initiates a discussion on construction domain-specific AI literacy,
 
 ## Citation
 
-Jiun-Yao Cheng, Masoud Gheisari, Idris Jeelani (forthcoming). Integrating AI Literacy into Construction Education: Definitions, Frameworks and Lessons Learned. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+Jiun-Yao Cheng, Masoud Gheisari, Idris Jeelani (forthcoming). Integrating AI Literacy into Construction Education: Definitions, Frameworks and Lessons Learned. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 

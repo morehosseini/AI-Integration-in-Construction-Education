@@ -14,7 +14,7 @@ Artificial intelligence (AI), particularly large language models (LLMs), is tran
 
 ## Citation
 
-Mohamad Kassem, Miroslaw J. Skibniewski, Abdulmalik Badamasi, M. Reza Hosseini (forthcoming). When Technical Outputs No Longer Demonstrate Competence: A Capability Framework for AI-Enabled Built Environment Education. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+Mohamad Kassem, Miroslaw J. Skibniewski, Abdulmalik Badamasi, M. Reza Hosseini (forthcoming). When Technical Outputs No Longer Demonstrate Competence: A Capability Framework for AI-Enabled Built Environment Education. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 

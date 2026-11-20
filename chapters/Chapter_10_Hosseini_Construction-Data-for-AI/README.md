@@ -19,7 +19,7 @@ Artificial intelligence (AI) is reshaping the architecture, engineering and cons
 
 ## Citation
 
-M. Reza Hosseini, Ruoxin Xiong, Amir Soroush, Tim Mumford (forthcoming). The Digital Blueprint: Structuring Heterogeneous Construction Data for Artificial Intelligence. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+M. Reza Hosseini, Ruoxin Xiong, Amir Soroush, Tim Mumford (forthcoming). The Digital Blueprint: Structuring Heterogeneous Construction Data for Artificial Intelligence. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 

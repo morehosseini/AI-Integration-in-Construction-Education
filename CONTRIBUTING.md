@@ -1,6 +1,6 @@
 # Contributing companion material
 
-This guide is for the authors of *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications* (CRC Press / Taylor & Francis). It explains how to add companion material for your chapter to this repository.
+This guide is for the authors of *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications* (Routledge / Taylor & Francis). It explains how to add companion material for your chapter to this repository.
 
 Anything added here is public. The editor, M. Reza Hosseini, approves every addition before it is published.
 

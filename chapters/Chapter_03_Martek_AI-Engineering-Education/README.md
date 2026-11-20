@@ -14,7 +14,7 @@ Generative artificial intelligence (AI) is emerging as the most disruptive techn
 
 ## Citation
 
-Igor Martek, Mehdi Amirkhani, Chayakan Siamphukdee (forthcoming). The Impact of Generative Artificial Intelligence on Built Environment and Engineering Education. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+Igor Martek, Mehdi Amirkhani, Chayakan Siamphukdee (forthcoming). The Impact of Generative Artificial Intelligence on Built Environment and Engineering Education. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 

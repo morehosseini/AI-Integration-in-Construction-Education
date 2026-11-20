@@ -18,7 +18,7 @@ Artificial intelligence (AI) agents represent a fundamental shift from passive s
 
 ## Citation
 
-M. Reza Hosseini, Mohamad Kassem, Ruoxin Xiong, Bree Trevena (forthcoming). Agentic AI in Construction: Frameworks, Use Cases and Practical Governance. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. CRC Press.
+M. Reza Hosseini, Mohamad Kassem, Ruoxin Xiong, Bree Trevena (forthcoming). Agentic AI in Construction: Frameworks, Use Cases and Practical Governance. In M. R. Hosseini, M. Kassem, H. Dang, M. J. Skibniewski & H. Li (Eds.), *AI Integration in AEC Education: Frameworks, Tools, and Pedagogical Applications*. Routledge.
 
 ## Licence
 
