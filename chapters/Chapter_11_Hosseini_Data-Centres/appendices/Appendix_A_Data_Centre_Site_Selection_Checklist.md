@@ -1,4 +1,4 @@
-# Appendix 1 — Data Centre Site Selection Checklist (Standards-Anchored, Example Only)
+# Appendix A — Data Centre Site Selection Checklist (Standards-Anchored, Example Only)
 
 ## Disclaimer (read first)
 This appendix is a **small, simplified educational example** compiled from selected siting-related material in the standards listed below. It is **not sufficient for real projects** and **must not be used for actual site selection, design, procurement, compliance, or risk decisions**. Real data-centre siting requires project-specific due diligence, qualified professional advice, stakeholder engagement (e.g., utility/network providers), and jurisdictional approvals.
