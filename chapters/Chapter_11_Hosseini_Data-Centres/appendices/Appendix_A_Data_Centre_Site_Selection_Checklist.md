@@ -11,6 +11,8 @@ This appendix is a **small, simplified educational example** compiled from selec
 - **EN 50600-2-1** — *Information technology — Data centre facilities and infrastructures — Part 2-1: Building construction* (location/site assessment requirements; largely **process- and risk-assessment-oriented** rather than fixed distances).
 
 > **Note:** Only some sources provide numeric separation distances. Where numeric distances appear, they should be treated as **examples from the cited standard’s guidance** and must still be validated against local conditions, current editions, and project risk appetite.
+>
+> **Editions cited in Chapter 11:** ANSI/TIA 942-C-2024, ANSI/BICSI 002-2024 and EN 50600-2-1:2021. Check the distances and criteria below against the edition you hold.
 
 ---
 
@@ -29,6 +31,7 @@ Use this checklist to structure early-stage **screening** and to understand typi
 - ☐ Site is **outside mapped flood hazard areas** (e.g., 1% AEP / “100-year floodplain” mapping) and has a documented flood study (**TIA-942; EN 50600-2-1**).
 - ☐ Finished floor levels for critical spaces are above expected flood levels; no critical infrastructure placed in high-risk basements (**TIA-942**).
 - ☐ Avoid locations **downstream of dams / water towers** where failure consequences are unacceptable (**TIA-942**).
+- ☐ In Australia, flood criteria from the standards are read together with local flood mapping, planning overlays and operator risk tolerances; for example, NEXTDC has publicly indicated that it generally seeks sites with 1-in-100 or 1-in-500-year flood resilience and builds above the estimated flood level where overland flow may occur (Chapter 11, Case Example: Environmental Hazard Mitigation in the Australian Context, citing Braue, 2022).
 
 ### 1.2 Seismic and ground failure hazards
 - ☐ Seismic hazard category identified and appropriate performance objectives established (**TIA-942; BICSI 002; EN 50600-2-1**).
@@ -41,6 +44,7 @@ Use this checklist to structure early-stage **screening** and to understand typi
 
 ### 1.4 Bushfire/wildfire and extreme weather
 - ☐ Bushfire/wildfire exposure assessed; defensible space, access, and emergency response considered (**BICSI 002; EN 50600-2-1**).
+- ☐ In NSW, where the site is bushfire-prone, the 2019 *Planning for Bush Fire Protection* guideline applies (siting, access, vegetation management, water supply and construction requirements; NSW Rural Fire Service), including the Asset Protection Zone (APZ), the managed buffer between the building and the bushfire hazard. These controls can affect site layout, defendable space, emergency access, façade detailing and services protection (Chapter 11, Case Example: Environmental Hazard Mitigation in the Australian Context).
 - ☐ Extreme wind / cyclone exposure and debris risk assessed (structural and envelope implications) (**BICSI 002; EN 50600-2-1**).
 - ☐ Lightning density considered (earthing/bonding, surge protection) (**EN 50600-2-1**).
 
@@ -143,6 +147,7 @@ TIA-942 site selection guidance emphasizes **avoiding** proximity to hazards suc
 ## 8) Planning, environmental, and community constraints
 
 - ☐ Zoning permits the intended use and critical infrastructure (fuel tanks, noise sources, emissions) (**TIA-942; EN 50600-2-1**).
+- ☐ In Australia, the standards are read together with the National Construction Code, state planning controls, environmental overlays and local authority requirements (Chapter 11, International Standards Framework).
 - ☐ Environmental hazards (legacy contamination; asbestos/lead/PCBs where brownfield) assessed (**TIA-942**).
 - ☐ Noise, visual impact, traffic impacts, and community acceptance assessed (**EN 50600-2-1**).
 - ☐ Opportunities for renewables and local sustainability alignment considered (**EN 50600-2-1**).
